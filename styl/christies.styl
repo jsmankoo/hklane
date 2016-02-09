@@ -1,0 +1,108 @@
+@import 'nib'
+@import 'rupture'
+@import 'imports/*'
+@import 'aboutHKLane'
+
++above(992px)
+	#christies-widget
+				padding 60px 0px 0px
+				#christies-include-mobile
+				#christies-include-tablets	
+					display none
+				#christies-include-desktop
+					display block
+					margin auto
+					border none
++between(625px, 992px)
+	#christies-widget
+				padding 25px 0px 0px
+				#christies-include-desktop
+				#christies-include-mobile
+					display none
+				#christies-include-tablets	
+					display block
+					margin auto
+					border none
++below(625px)
+	#christies-widget
+				padding 25px 0px 40px
+				#christies-include-desktop
+				#christies-include-tablets
+					display none
+				#christies-include-mobile
+					display block
+					margin auto
+					border none
+
+html body
+	p
+		line-height: 25px
+		color grey
+	.heading
+		font-weight 300
+		margin 0px auto
+		padding 25px
+		background-image url(light-patern)
+	#youtube-vid
+	#Affiliate-img
+		display block
+	.sub-heading
+		font-weight 300
+	#christies-widget
+		background-image url(light-patern)
+		
+	
+
+	// Mobile
+	+below(992px)
+		.heading
+			padding 20px
+			font-size 25px
+		.sub-heading
+			padding 20px
+			font-size 25px
+		.aboutHKLane
+			display none
+		.aboutChristies
+			display none
+		#youtube-vid
+			margin 50px auto 0px
+			size 100% mobileShrink*450px
+		#Affiliate
+			margin 50px auto
+			#Affiliate-img
+				relative top -42px
+				margin 0px auto
+				size auto 110px
+		.content
+			padding-bottom mobileShrink*30px
+			.sub-heading
+				padding mobileShrink*28px 0px 0px
+			.paragraph
+				margin mobileShrink*25px 15px
+
+	//not mobile
+	+above(992px)
+		.aboutHKLane
+			height 10px
+		.aboutChristies
+			display block
+			position relative
+			height border-height
+			background-image url(dark-patern)
+		#youtube-vid
+			margin 50px auto 30px
+			size 800px 450px
+		#Affiliate
+			margin 83px auto
+			#Affiliate-img
+				relative top -83px
+				margin 0px auto
+				size auto 166px
+		.content
+			padding-bottom 30px
+			.sub-heading
+				padding 28px 0px 0px
+			.paragraph
+				margin 25px 200px
+		

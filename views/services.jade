@@ -1,0 +1,65 @@
+extend aboutHKLane
+
+block head
+  link(href="/css/services.css" rel="stylesheet")
+
+block content
+  #index-mid
+
+block scripts
+  script
+    :coffee-script
+      wpServer = 'http://hklane2015.uptowncreativeinc.com/wp-json/wp/v2'
+      $.getJSON "#{wpServer}/pages/14", (data)->
+        content = $(data.content.rendered)
+        section = $('#index-mid')
+        section.append content
+        section.css {opacity: 1}
+
+        cropSlide = ()->
+          wid = $(window).width()
+          ratio = 1600/602
+          height = wid/ratio
+
+          if wid > 992
+            $('#head').css {
+              "height": "350px"
+              "width": "100%"
+              "overflow": "hidden"
+              "display": "block"
+            }
+            $('img#headImage').css {
+              "height": "#{height}px"
+              "width": "#{wid}px"
+              "margin": "#{(350-height)/2}px 0px 0px 0px"
+            }
+          else if wid <= 992 && wid > 380
+            $('#head').css {
+              "height": "143px"
+              "width": "100%"
+              "overflow": "hidden"
+              "display": "block"
+            }
+            $('img#headImage').css {
+              "height": "#{height}px"
+              "width": "#{wid}px"
+              "margin": "#{(143-height)/2}px 0px 0px 0px"
+            }
+          else if wid < 380
+            $('#head').css {
+              "height": "143px"
+              "width": "100%"
+              "overflow": "hidden"
+              "display": "block"
+            }
+            $('img#headImage').css {
+              "height": "#143px"
+              "width": "#{143*ratio}px"
+              "margin": "0px 0px 0px #{(wid-(143*ratio))/2}px"
+            }
+        cropSlide()
+
+        $(window).resize cropSlide
+
+        $('.loader').fadeOut 'slow'
+      

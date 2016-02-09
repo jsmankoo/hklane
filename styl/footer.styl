@@ -1,0 +1,50 @@
+@import 'nib'
+@import 'rupture'
+@import 'imports/*'
+
+html body
+	footer
+		color #7F7F7F
+		ul#footer
+			list-style-type none
+			margin auto
+			padding 0px
+			li
+				padding-right 10px
+				display inline
+				img#christie-footer-img
+					size auto 118px
+		.footer-text
+			font-size: 12px
+			margin auto 20px
+			line-height: 15px
+	
+		+below(992px)
+			.row#iconRow
+				margin 50px auto 30px auto
+			.col-md-2
+				margin 0px auto
+				size 150px 100px
+				padding 0px
+			ul#footer li
+				img#christie-footer-img
+					size auto 80px
+			.footer-border
+					border-bottom 1px solid #7f7f7f
+		
+		+above(992px)
+			.row#iconRow
+				margin 95px auto 55px auto
+			.row#mainRow
+				margin 55px auto 55px auto
+				
+
+			.col-md-2
+				height 118px
+			.footer-border
+				display block
+				border-right 1px solid #7f7f7f
+		
+		+below(922px)
+			.row p small
+				margin auto 50px

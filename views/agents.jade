@@ -1,0 +1,42 @@
+extend aboutHKLane
+
+block head
+  link(href="/css/agents.css" rel="stylesheet")
+
+block content
+  section(ng-app='agents' ng-controller='agentsCtrl')
+    section.title
+      h1.heading.text-center HK LANE AGENTS
+    section.border
+    section.container
+      .row#searchBar
+        .col-md-6#searchRow: input(type='text' ng-model='search' placeholder="SEARCH")
+        .col-md-6#sortRow: button#sortButton(ng-click="sortType = 'firstname' ") SORT ALPHABETICALLY
+    section.border
+    section.container
+      .agents
+        .col-md-4.col-sm-6(ng-repeat='x in json | filter:search | orderBy:sortType')
+          .agent.thumbnail
+            a(ng-href='http://hklane.idxre.com/agents/51244/{{x.id}}/{{x.firstname}}-{{x.lastname}}')
+              img(ng-src="{{x.photo}}")
+            a(ng-href='http://hklane.idxre.com/agents/51244/{{x.id}}/{{x.firstname}}-{{x.lastname}}')
+              h2.name.text-center {{x.firstname}} {{x.lastname}}
+            p.cell.text-center(ng-if='x.cellphone.length > 0') Cell: {{x.cellphone}}
+            p.cell.text-center(ng-if='x.officephone.length > 0') {{x.officephone}}
+            a(ng-href='mailto:{{x.email}}')
+              p.email.text-center.color-red(ng-if='x.email.length > 0') {{x.email}}
+
+
+block scripts
+  script(src='https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js')
+  script
+    :coffee-script
+      app = angular.module 'agents', []
+      app.controller 'agentsCtrl', ($scope, $http)->
+        $http.get('/api/agents').then (res)->
+          $scope.sortType = 'name'
+          $scope.searchAgent = ''
+
+          $scope.json = res.data
+          $('.loader').fadeOut 'slow'
+      

@@ -1,0 +1,130 @@
+@import 'nib'
+@import 'rupture'
+@import 'imports/*'
+@import 'aboutHKLane'
+
+html body
+	//ihomefinder Stuff
+	nav.navbar .nav.navbar-nav .dropdown#ourProperties a
+		padding-bottom 18px
+	#ihomefinder
+		padding-top 50px
+		padding-bottom 50px
+	#ihf-main-container
+		.page-header
+			text-align: center
+		a
+			text-decoration none
+			color red
+			&:hover
+			&:focus
+				color black
+				text-decoration none
+		.btn
+			background-color red
+			color #FFF
+			border none
+			border-radius 0px
+			text-decoration none
+			&:hover
+			&:focus
+				background-color black
+				color white
+				text-decoration none
+			span
+				color white
+		.dropdown-menu li
+			a:hover
+				background-color red
+		.title-bar-1
+			color white
+			background-color red
+			border none
+	.modal-dialog
+		left inherit !important
+	
+
+
+	//Default stuff		
+	p
+		line-height: 25px
+		color grey
+	.heading
+		font-weight 300
+		margin 0px auto
+		padding 25px
+		background-image url(light-patern)
+	.sub-heading
+		font-weight 300
+		margin-top 0px
+		text-align center
+	ul.nav.nav-pills
+		font-size 16px
+		font-weight: 500
+		display table
+		margin 20px auto
+		a
+			&:hover
+			&:focus
+				background-image url(med-patern)
+	.tab-content
+		padding-top 20px
+		.col-md-4.col-sm-6
+			a.thumbnail
+				border none
+				background-image url(std-patern)
+				color black
+				&:hover
+				&:focus
+					color black
+				.row
+					margin-left 0px
+					margin-right 0px
+				.imgWrapper
+					size 350px 230px
+					max-width 100%
+					overflow hidden
+					img
+						size 350px auto
+						max-width 100%
+				.col-sm-8
+				.col-sm-4
+					.row
+						margin auto -15px
+				//.address
+				//.city
+				.price
+					color red
+				//i.fa.fa-arrows-alt
+				//i.fa.fa-bed
+				//i.fa.fa-male
+
+	// Mobile
+	+below(992px)
+		img#christies-xs
+			display none
+		.heading
+			padding 20px
+			font-size 25px
+		.sub-heading
+			padding 20px
+			font-size 25px
+			line-height mobileShrink*50px
+			margin mobileShrink*15px auto mobileShrink*15px auto
+		
+
+	//not mobile
+	+above(992px)
+		#ihf-main-container .input-group .form-control
+			size 100% 60px
+		.sub-heading
+			font-weight 300
+			margin-top 0px
+			text-align center
+		.aboutHKLane
+			height 10px
+		.aboutProp
+			display block
+			position relative
+			height border-height
+			background-image url(dark-patern)

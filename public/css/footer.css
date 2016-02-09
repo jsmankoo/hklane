@@ -1,0 +1,63 @@
+html body a:hover,
+html body a:focus {
+  cursor: pointer;
+}
+html body footer {
+  color: #7f7f7f;
+}
+html body footer ul#footer {
+  list-style-type: none;
+  margin: auto;
+  padding: 0px;
+}
+html body footer ul#footer li {
+  padding-right: 10px;
+  display: inline;
+}
+html body footer ul#footer li img#christie-footer-img {
+  width: auto;
+  height: 118px;
+}
+html body footer .footer-text {
+  font-size: 12px;
+  margin: auto 20px;
+  line-height: 15px;
+}
+@media only screen and (max-width: 992px) {
+  html body footer .row#iconRow {
+    margin: 50px auto 30px auto;
+  }
+  html body footer .col-md-2 {
+    margin: 0px auto;
+    width: 150px;
+    height: 100px;
+    padding: 0px;
+  }
+  html body footer ul#footer li img#christie-footer-img {
+    width: auto;
+    height: 80px;
+  }
+  html body footer .footer-border {
+    border-bottom: 1px solid #7f7f7f;
+  }
+}
+@media only screen and (min-width: 992px) {
+  html body footer .row#iconRow {
+    margin: 95px auto 55px auto;
+  }
+  html body footer .row#mainRow {
+    margin: 55px auto 55px auto;
+  }
+  html body footer .col-md-2 {
+    height: 118px;
+  }
+  html body footer .footer-border {
+    display: block;
+    border-right: 1px solid #7f7f7f;
+  }
+}
+@media only screen and (max-width: 922px) {
+  html body footer .row p small {
+    margin: auto 50px;
+  }
+}

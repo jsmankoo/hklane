@@ -1,0 +1,102 @@
+@import 'nib'
+@import 'rupture'
+@import 'imports/*'
+@import 'aboutHKLane'
+
+html body
+	p
+		line-height: 25px
+		color grey
+	.heading
+		font-weight 300
+		margin 0px auto
+		padding 25px
+		background-image url(light-patern)
+	
+	.location
+		text-align: left
+		background-image url(light-patern)
+		.locationImageWrapper img
+			border 1px solid #DDD
+		.city
+			font-weight: 300
+		.phone
+		.fax
+		.name
+		.position
+		.email
+			margin 0px
+			text-align: left
+
+	// Mobile
+	+below(992px)
+		.mobile-only
+			display block
+		.heading
+			font-weight 300
+			padding 20px
+			font-size 25px
+		
+		.aboutHKLane
+			display none
+		.border-mobile
+			background-image url(std-patern)
+			size auto 10px
+			margin 0px -15px
+		.location
+			margin auto -15px
+			.locationImageWrapper
+				margin 40px auto 25px
+			.city
+				margin 25px auto
+				font-weight 300
+				font-size 25px
+			.address
+				margin 25px auto
+			.directions
+				margin 25px auto
+		#palmSprings
+		#palmDesert
+			display block
+			text-align center
+			background none
+		#laQuinta
+			display block
+			margin 0px -15px
+			text-align center
+
+
+	//not mobile
+	+above(992px)
+		.mobile-only
+			display none
+		.aboutHKLane
+			display block
+			position relative
+			height border-height
+			background-image url(dark-patern)
+		.location
+			max-width 999px
+			margin 80px auto
+			.left
+				margin 20px auto 40px
+				border-right 1px solid #7F7F7F
+				.row
+					padding-left 40px
+					.locationImageWrapper
+						padding-top 10px
+					.fullAddress
+						padding-left 25px
+						.city
+							padding-bottom 20px
+			.right
+				margin 20px 0px 40px
+				.contactInfo
+					padding-left 35px
+					padding-top 25px
+				.directions
+					display block
+					margin auto
+					text-align center
+					padding-right 90px
+				

@@ -1,0 +1,62 @@
+extend aboutHKLane
+
+block head
+  link(href="/css/properties.css" rel="stylesheet")
+
+block content
+  section(ng-app='agents' ng-controller='propertyCtrl')
+    section.title
+      h1.heading.text-center FEATURED PROPERTIES
+    section.border
+    section.container
+      .row
+        ul.nav.nav-pills
+          //Possible values include SFR (Single Family Residences), CND (Condos), FRM (Farms), RI (Residential Income), MH (Mobile Homes), LL (Lots and Land), RNT (Rentals), COM (Commercial)  
+          li: a(href='/properties/SFR' ng-if='SFR.length != 0') Family Residences
+          li: a(href='/properties/CND' ng-if='CND.length != 0') Condos
+          li: a(href='/properties/RI' ng-if='RI.length != 0') Residential Income
+          li: a(href='/properties/MH' ng-if='MH.length != 0') Mobile Homes
+          li: a(href='/properties/LL' ng-if='LL.length != 0') Lots and Lands
+          li: a(href='/properties/RNT' ng-if='RNT.length != 0') Rentals
+    section.border
+    section.container
+      .tab-content
+        .row
+          .col-md-4.col-sm-6(ng-repeat='prop in propType')
+            a(ng-href='/properties/propType/{{prop.listingnumber}}/{{prop.mlsid}}').thumbnail
+              .imgWrapper
+                img(ng-src='{{prop.ihfphotourl}}')
+              .row
+                .col-sm-8
+                  .row
+                    .address {{prop.house_numb}} {{prop.street_nam}}
+                  .row
+                    .city {{prop.city_name}} {{prop.state}} {{prop.zip}}
+                  .row
+                    .price {{prop.list_price | currency}}
+                .col-sm-4
+                  .row
+                    i.fa.fa-arrows-alt(ng-if='prop.totl_fl_sq != ""')  {{prop.totl_fl_sq}} sq ft
+                  .row
+                    i.fa.fa-bed(ng-if='prop.totl_bed != ""')  {{prop.totl_bed}}
+                  .row
+                    i.fa.fa-male(ng-if='prop.totl_fbath != ""') |<i class='fa fa-female'> {{prop.totl_fbath}} </i>
+
+
+
+block scripts
+  script(src='https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js')
+  script.
+    var propType = '#{propType}';
+  script
+    :coffee-script
+      app = angular.module 'agents', []
+      app.controller 'propertyCtrl', ($scope, $http)->
+        propType = window.propType
+        $http.get("/api/feature/#{propType}").then ({data : propType})->
+          $scope.propType = propType
+          $(".loader").fadeOut("slow")
+        console.log $scope
+
+          
+      

@@ -1,0 +1,120 @@
+@import 'nib'
+@import 'rupture'
+@import 'imports/*'
+@import 'aboutHKLane'
+
+html body
+	p
+		line-height: 25px
+		color grey
+	.heading
+		font-weight 300
+		margin 0px auto
+		padding 25px
+		background-image url(light-patern)
+	.name
+		font-size 25px
+		font-weight: 300
+	.cell
+	a
+		&:hover
+		&:focus
+			text-decoration none
+	.profile
+		font-weight: 500
+
+	// Mobile
+	+below(992px)
+		img#christies-xs
+			display none
+		.aboutHKLane
+			display none
+		.aboutAgents
+			display none
+		#searchBar
+			margin 15px auto
+			#searchRow
+				input
+					border none
+					display block
+					color #FFFFFF
+					background-color #7F7F7F
+					margin 10px auto
+					text-align center
+			#sortRow
+				#sortButton
+					font-weight: 700
+					color red
+					display block
+					margin 10px auto
+					background transparent
+					border none
+					outline none
+					&:hover
+					&:focus
+						color black
+		.agents
+			margin mobileShrink*65px auto
+			.agent
+				height 292px
+				border none
+				margin mobileShrink*28px auto
+				img
+					border 1px solid #CCCCCC
+					size 150px 150px
+				.name
+					margin mobileShrink*28px auto mobileShrink*12px
+				.cell
+				.email
+				.profile
+					margin 0px
+
+	//not mobile
+	+above(992px)
+		.aboutHKLane
+			height 10px
+		.aboutAgents
+			display block
+			position relative
+			height border-height
+			background-image url(dark-patern)
+		#searchBar
+			margin 50px auto
+			#searchRow
+				border-right 1px solid #7F7F7F
+				input
+					border none
+					color #FFFFFF
+					background-color #7F7F7F
+					float right
+					margin 30px 25px 30px auto
+					text-align center
+			#sortRow
+				#sortButton
+					font-weight: 700
+					color red
+					display block
+					float left 
+					margin 30px auto 30px 20px
+					background transparent
+					border none
+					outline none
+					&:hover
+					&:focus
+						color black
+		.agents
+			margin 65px auto
+			.agent
+				height 314px
+				border none
+				margin 28px auto
+				img
+					size 150px 150px
+					border 1px solid #CCCCCC
+				.name
+					margin 28px auto 12px
+				.cell
+				.email
+				.profile
+					margin 0px
+				

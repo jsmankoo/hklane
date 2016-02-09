@@ -1,0 +1,63 @@
+@import 'nib'
+@import 'rupture'
+@import 'imports/*'
+@import 'aboutHKLane'
+
+html body
+	.heading
+		font-weight 300
+		margin 0px auto
+		padding 25px
+		background-image url(light-patern)
+	
+	.paragraph
+		font-size 15px
+		color grey
+		text-align center
+	#index-mid
+		#servicesOffered
+		#serviceLinks
+		#propType
+			font-size 15px
+			color grey
+			columns 2
+			-webkit-columns 2
+			-moz-columns 2
+
+	// Mobile
+	+below(992px)
+		.heading
+			font-weight 300
+			padding 20px
+			font-size 25px
+		.aboutHKLane
+			display none
+		.paragraph
+			font-size 15px
+			line-height mobileShrink*25px
+			margin mobileShrink*25px auto mobileShrink*20px
+		#index-mid
+			.container
+				margin mobileShrink*30px auto mobileShrink*40px
+				#servicesOffered
+				#serviceLinks
+				#propType
+					margin mobileShrink*20px auto mobileShrink*55px
+
+	//not mobile
+	+above(992px)
+		.aboutHKLane
+			display block
+			position relative
+			height border-height
+			background-image url(dark-patern)
+		.paragraph
+			line-height 25px
+			margin 25px 120px 20px
+		#index-mid
+			.container
+				margin 30px auto 40px
+				#servicesOffered
+				#serviceLinks
+				#propType
+					margin 20px 200px 55px 260px

@@ -1,0 +1,114 @@
+@import 'nib'
+@import 'rupture'
+@import 'imports/*'
+
+html body
+	nav.navbar.navbar-default
+		background-color #FFFFFF
+		.navbar-nav li
+			a
+				background transparent
+				color black
+				font-weight 700
+			a:hover
+			a:focus
+				color red
+				background-color transparent
+		.navbar-nav ul
+			li
+				margin auto 20px
+				a:hover
+				a:focus
+					color red
+					background-color transparent
+		.navbar-toggle:focus
+		.navbar-toggle:hover
+		.navbar-toggle
+			background-color #FFFFFF
+			border-color #FFFFFF
+		#mobile-only-chevron
+			display none
+
+	// Mobile
+	+below(992px)
+		nav.navbar.navbar-default
+			img#hklane
+				position relative
+				top -8px
+				size auto 45px
+			img#christies
+				display none
+			.navbar-header .navbar-brand img
+				size auto 45px
+			#mobile-only-chevron
+				display block
+			.nav.navbar-nav
+				margin-top 0px
+				margin-bottom 0px
+				background-image url(med-patern)
+				.navbar-mobile-border
+					border-bottom 1px solid #f7f7f7
+					.nav-active
+						display none
+				.dropdown .dropdown-menu
+					padding 10px 0px
+					li a
+						height 35px
+						color black
+						&:hover
+						&:focus	
+							color red
+				li
+					margin auto 30px
+					a
+						padding 10px 0px
+		img#christies-xs
+			z-index 2
+			absolute top 74.7px right 0px
+			size auto 50px
+			display block
+		
+	//not mobile
+	+above(992px)
+		img#christies-xs
+			display none
+		nav.navbar
+			height 122px
+			img#christies
+				display block
+				float right
+				size auto 58px			
+			.navbar-header .navbar-brand img#hklane
+				margin 12px auto 26px auto
+				size auto 69px
+			.nav.navbar-nav
+				li a
+					padding 26px 15px 18px 15px
+				.dropdown:hover .dropdown-menu
+					display: block;
+				.dropdown .dropdown-menu
+					//height doesnt work. change directly inside the tag
+					background-image url(med-patern)
+					top 100%
+					left 0px
+					//height 165px
+					min-width 260px
+					padding 13px 0px
+					border-width 0px
+					box-shadow none
+					li a
+						text-align left
+						margin auto 10px
+						padding 8px 0px
+					li.dropdown-border
+						border-bottom 1px solid #f7f7f7
+				.dropdown#ourProperties
+					a
+						padding-bottom 28px
+					#ourPropertiesDropDown.dropdown-menu
+						left auto
+						li a
+							padding 8px 0px
+					
+			.border-solid-white
+				border-bottom 1px solid #f7f7f7

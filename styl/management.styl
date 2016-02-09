@@ -1,0 +1,74 @@
+@import 'nib'
+@import 'rupture'
+@import 'imports/*'
+@import 'aboutHKLane'
+
+html body	
+	.heading
+		font-weight 300
+		margin 0px auto
+		padding 25px
+		background-image url(light-patern)
+	
+	img.exec
+		display block
+		margin 65px auto 0px auto
+	.name
+		font-weight 300
+	.position
+		color grey
+	
+	.paragraph
+		color grey
+		text-align center
+	
+	#index-mid
+		button
+			border 1px solid transparent
+			display block
+			margin 0px auto
+			background transparent
+			border none
+			outline none
+			i.fa
+				color red
+
+	// Mobile
+	+below(992px)
+		.heading
+			padding 20px
+			font-size 25px
+		img.exec
+			display block
+			margin 35px auto 0px auto
+		.name
+			padding 20px
+			font-size 25px
+			margin mobileShrink*8px auto mobileShrink*8px auto
+		.aboutHKLane
+			display none
+		.position
+			margin mobileShrink*0px auto
+		.paragraph
+			line-height mobileShrink*25px
+			margin mobileShrink*28px auto mobileShrink*0px
+		#index-mid .fa
+			margin mobileShrink*20px auto mobileShrink*60px auto
+
+	//not mobile
+	+above(992px)
+		.aboutHKLane
+			display block
+			position relative
+			height border-height
+			background-image url(dark-patern)
+		.name
+			margin 28px auto 8px auto
+		.position
+			margin 0px auto
+		.paragraph
+			line-height 25px
+			margin 28px 150px 0px
+		#index-mid .fa
+			margin 20px auto 60px auto
+		

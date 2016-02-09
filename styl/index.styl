@@ -1,0 +1,175 @@
+@import 'nib'
+@import 'rupture'
+@import 'imports/*'
+@import 'layout'
+
+html body
+	.aboutHKLane
+		position relative
+		height 10px
+		background-image url(dark-patern)
+	
+	.sub-heading
+		letter-spacing 3px
+		font-weight 300
+		margin-top 0px
+		text-align center
+	.paragraph
+		font-size 15px
+		letter-spacing 2px
+		font-weight 500
+		text-align center
+		color #7F7F7F
+	
+	#about-nav a
+		font-weight 500
+	
+	#slide-show
+		.item
+			overflow hidden
+			display block
+			size 100% 602px
+	
+	#owl-demo
+		.item
+			margin 3px
+			img
+				display block
+				size 370px 240px
+	#about-nav li a
+		font-weight: 500
+		font-size 13px
+		letter-spacing: 1px
+	
+	#featured
+		background-image url(light-patern)
+		a
+			letter-spacing: 2px
+		.sub-heading
+			margin 65px auto 10px
+		.link
+			font-weight 700
+			margin 0px auto
+		.paragraph
+			color #7F7F7F
+
+	// Mobile
+	+below(992px)
+		.sub-heading
+			line-height 30px
+			margin 25px 15px
+			font-size 25px
+		h2.sub-heading
+			font-size 28px
+		h4.paragraph
+			margin 40px 15px 30px
+			line-height 25px
+		#about-nav
+			clearfix()
+			padding 0px
+			display block
+			list-style-type none
+			margin auto auto 30px
+			li
+				margin 15px auto
+		
+		#slide-show
+			.item
+				overflow hidden
+				size 100% 350px
+					
+			
+		#Affiliate
+			margin 0px auto 50px auto
+
+		img#Affiliate-img
+			position relative
+			top -42px
+			margin 0px auto
+			height 110px
+			display block
+		#featured
+			.sub-heading
+				line-height 35px
+				margin 30px 50px 20px 50px
+			.link
+				margin-bottom 60px
+			#featuredProp
+				size auto 378px
+				.property
+					size auto 100%
+					display block
+					margin 0px auto
+					padding 0px
+					img
+						display block
+						margin auto
+						size auto 210px
+					h4
+						margin 20px auto 15px auto
+					.paragraph
+						margin 0px auto 15px auto
+				.owl-controls .owl-pagination
+					relative top -440px
+					.owl-page span
+						size 5px 5px
+						opacity 1
+						background black
+					.owl-page.active span
+						background red
+
+	//not mobile
+	+above(992px)
+		#about-nav
+			clearfix()
+			padding 0px
+			list-style-type none
+			display table
+			margin 0px auto 60px auto
+			li
+				padding 0px 40px
+				text-align center
+				display inline-block
+
+		#Affiliate
+			margin 0px auto 75px auto
+			a
+				relative top -83px
+				margin 0px auto
+				size 164px 166px
+				display block
+				img#Affiliate-img
+					size 164px 166px
+					position relative
+
+		.sub-heading
+			line-height 50px
+			margin 30px 200px 0px
+		.paragraph
+			line-height 25px
+			margin 18px 150px
+
+		#featuredProp
+			margin 50px auto auto auto
+			.property
+				size 400px auto
+				display block
+				margin auto
+				img
+					size 370px 240px
+				h4
+					margin 20px auto 15px
+				.paragraph
+					font-weight 500
+					line-height 18px
+					margin 0px auto
+				.link
+					margin 20px auto 75px
+			.owl-controls
+				margin 0px auto 40px
+				.owl-pagination
+					.owl-page span
+						opacity 1
+						background black
+					.owl-page.active span
+						background red
