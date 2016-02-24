@@ -32,7 +32,7 @@ app.set 'view engine', "jade"
 
 app.use morgan 'dev'
 app.use express.static "./public", {
-  maxAge: 200
+  maxAge: 1000
 }
 
 
