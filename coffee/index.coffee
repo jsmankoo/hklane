@@ -26,12 +26,14 @@ propArgs =
 #init app
 app = express()
 
-app.set 'port', process.env.PORT||8000
+app.set 'port', process.env.PORT||10000
 app.set 'views', "./views"
 app.set 'view engine', "jade"
 
 app.use morgan 'dev'
-app.use express.static "./public"
+app.use express.static "./public", {
+  maxAge: 200
+}
 
 
 ##API
