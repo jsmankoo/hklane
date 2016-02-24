@@ -7,9 +7,6 @@ html body
 	//ihomefinder Stuff
 	nav.navbar .nav.navbar-nav .dropdown#ourProperties a
 		padding-bottom 18px
-	#ihomefinder
-		padding-top 50px
-		padding-bottom 50px
 	#ihf-main-container
 		.page-header
 			text-align: center
@@ -42,10 +39,10 @@ html body
 			border none
 	.modal-dialog
 		left inherit !important
-	
 
 
-	//Default stuff		
+
+	//Default stuff
 	p
 		line-height: 25px
 		color grey
@@ -101,6 +98,11 @@ html body
 
 	// Mobile
 	+below(992px)
+		#ihomefinder
+			padding-top 20px
+			padding-bottom 50px
+		#ihf-main-container .input-group .form-control
+			size 100% 60px
 		img#christies-xs
 			display none
 		.heading
@@ -111,10 +113,13 @@ html body
 			font-size 25px
 			line-height mobileShrink*50px
 			margin mobileShrink*15px auto mobileShrink*15px auto
-		
+
 
 	//not mobile
 	+above(992px)
+		#ihomefinder
+			padding-top 50px
+			padding-bottom 50px
 		#ihf-main-container .input-group .form-control
 			size 100% 60px
 		.sub-heading

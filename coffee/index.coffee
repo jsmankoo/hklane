@@ -7,7 +7,7 @@ parser = require 'xml2json'
 shuffle = require 'knuth-shuffle'
 
 #propType SFR (Single Family Residences)
-#             CND (Condos), FRM (Farms), 
+#             CND (Condos), FRM (Farms),
 #             RI (Residential Income), MH (Mobile Homes),
 #             LL (Lots and Land), RNT (Rentals), COM (Commercial)
 agentURL = 'https://secure.idxre.com/ihws/AgentWebService.cfc?wsdl'
@@ -38,7 +38,7 @@ app.use express.static "./public"
 app.get '/api/feature/:propType', (req, res)->
     propArgs.propType = req.params.propType
     soap.createClient propUrl, (err, client)->
-        client.getProps propArgs, (err, result)-> 
+        client.getProps propArgs, (err, result)->
             result = JSON.parse parser.toJson result.getPropsReturn['$value']
             if result.Request
                 res.json []
@@ -51,14 +51,14 @@ app.get '/api/prop/:propType/:listingNumber/:MLSID', (req, res)->
     propArg.MLSID = req.params.MLSID
     propArg.PropType = req.params.propType
     soap.createClient propUrl, (err, client)->
-        client.getPropDetail propArg, (err, result)-> 
+        client.getPropDetail propArg, (err, result)->
             result = JSON.parse parser.toJson result.getPropDetailReturn['$value']
             res.json result.featured_prop
-            
+
 
 app.get '/api/agents', (req, res)->
     soap.createClient agentURL, (err, client)->
-        client.getAllAgents agentsArgs, (err, result)-> 
+        client.getAllAgents agentsArgs, (err, result)->
             resultXML = result.getAllAgentsReturn['$value']
             resultJson = JSON.parse parser.toJson resultXML
             agentsArray = resultJson.agentlist.agent
@@ -66,8 +66,8 @@ app.get '/api/agents', (req, res)->
 
 app.get '/', (req, res)->
     soap.createClient propUrl, (err, client)->
-        client.getProps propArgs, (err, result)-> 
-            result = JSON.parse parser.toJson result.getPropsReturn['$value']  
+        client.getProps propArgs, (err, result)->
+            result = JSON.parse parser.toJson result.getPropsReturn['$value']
             resultArray = result.featured_props.featured_prop
             sortedArray = resultArray.sort (a,b)->
                     parseInt b.list_price - parseInt a.list_price
@@ -102,6 +102,19 @@ app.get '/properties/:propType', (req, res)->
     res.render 'properties', {
         propType : propType
     }
+
+##301 redirects
+app.get '/index.php', (req, res) -> res.redirect 301, '/'
+app.get '/story.php', (req, res) -> res.redirect 301, '/story'
+app.get '/executive-management.php', (req, res) -> res.redirect 301, '/management'
+app.get '/services.php', (req, res) -> res.redirect 301, '/services'
+app.get '/locations.php', (req, res) -> res.redirect 301, '/locations'
+app.get '/christies.php', (req, res) -> res.redirect 301, '/christies'
+app.get '/agents.php', (req, res) -> res.redirect 301, '/agents'
+app.get '/search-basic.php', (req, res) -> res.redirect 301, 'http://hklane.idxhome.com/homesearch/51244'
+app.get '/search-advanced.php', (req, res) -> res.redirect 301, 'http://hklane.idxhome.com/homesearch/51244'
+app.get '/search-address.php', (req, res) -> res.redirect 301, 'http://hklane.idxhome.com/homesearch/51244'
+app.get '/search-number.php', (req, res) -> res.redirect 301, 'http://hklane.idxhome.com/homesearch/51244'
 
 app.listen app.get('port'), ->
     console.log "HKLane started on port: #{app.get 'port'}"
