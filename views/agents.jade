@@ -31,7 +31,7 @@ block scripts
   script(src='https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js')
   script
     :coffee-script
-      app = angular.module 'agents', []
+      app = angular.module 'agents', ['ngSanitize']
       app.controller 'agentsCtrl', ($scope, $http)->
         $http.get('/api/agents').then (res)->
           $scope.sortType = 'name'

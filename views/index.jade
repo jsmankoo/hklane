@@ -22,7 +22,8 @@ block content
           - function sD(x){ return x.replace(/\s+/g, '-'); }
           each prop in featureProp
             .property.col-md-4
-              img(src=prop.ihfphotourl)
+              a(href='http://hklane.idxre.com/homes/#{prop.mlsid}/51244/#{sD(prop.house_numb)}-#{sD(prop.street_nam)}-#{sD(prop.city_name)}-#{sD(prop.state)}-#{sD(prop.zip)}/#{prop.listingnumber}')
+                img(src=prop.ihfphotourl)
               h4.text-center $ #{nC(parseInt(prop.list_price))}
               p.paragraph.text-center #{prop.house_numb} #{prop.street_nam} <br> #{prop.city_name}, #{prop.state} #{prop.zip}
               h6.link.text-center
