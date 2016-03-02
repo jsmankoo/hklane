@@ -32,7 +32,7 @@ app.set 'view engine', "jade"
 
 app.use morgan 'dev'
 app.use express.static "./public", {
-  maxAge: 1000
+  maxAge: 7200000
 }
 
 
@@ -113,10 +113,12 @@ app.get '/services.php', (req, res) -> res.redirect 301, '/services'
 app.get '/locations.php', (req, res) -> res.redirect 301, '/locations'
 app.get '/christies.php', (req, res) -> res.redirect 301, '/christies'
 app.get '/agents.php', (req, res) -> res.redirect 301, '/agents'
-app.get '/search-basic.php', (req, res) -> res.redirect 301, 'http://hklane.idxhome.com/homesearch/51244'
-app.get '/search-advanced.php', (req, res) -> res.redirect 301, 'http://hklane.idxhome.com/homesearch/51244'
-app.get '/search-address.php', (req, res) -> res.redirect 301, 'http://hklane.idxhome.com/homesearch/51244'
-app.get '/search-number.php', (req, res) -> res.redirect 301, 'http://hklane.idxhome.com/homesearch/51244'
+app.get '/search-basic.php', (req, res) -> res.redirect 301, 'http://idx.hklane.com/homesearch/51244'
+app.get '/search-advanced.php', (req, res) -> res.redirect 301, 'http://idx.hklane.com/homesearch/51244'
+app.get '/search-address.php', (req, res) -> res.redirect 301, 'http://idx.hklane.com/homesearch/51244'
+app.get '/search-number.php', (req, res) -> res.redirect 301, 'http://idx.hklane.com/homesearch/51244'
+app.get '/search-number.php', (req, res) -> res.redirect 301, 'http://idx.hklane.com/homesearch/51244'
+
 
 app.listen app.get('port'), ->
     console.log "HKLane started on port: #{app.get 'port'}"

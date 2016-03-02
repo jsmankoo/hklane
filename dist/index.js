@@ -35,7 +35,7 @@
 
   app = express();
 
-  app.set('port', process.env.PORT || 8000);
+  app.set('port', process.env.PORT || 10000);
 
   app.set('views', "./views");
 
@@ -43,7 +43,9 @@
 
   app.use(morgan('dev'));
 
-  app.use(express["static"]("./public"));
+  app.use(express["static"]("./public", {
+    maxAge: 7200000
+  }));
 
   app.get('/api/feature/:propType', function(req, res) {
     propArgs.propType = req.params.propType;
@@ -135,6 +137,54 @@
     return res.render('properties', {
       propType: propType
     });
+  });
+
+  app.get('/index.php', function(req, res) {
+    return res.redirect(301, '/');
+  });
+
+  app.get('/story.php', function(req, res) {
+    return res.redirect(301, '/story');
+  });
+
+  app.get('/executive-management.php', function(req, res) {
+    return res.redirect(301, '/management');
+  });
+
+  app.get('/services.php', function(req, res) {
+    return res.redirect(301, '/services');
+  });
+
+  app.get('/locations.php', function(req, res) {
+    return res.redirect(301, '/locations');
+  });
+
+  app.get('/christies.php', function(req, res) {
+    return res.redirect(301, '/christies');
+  });
+
+  app.get('/agents.php', function(req, res) {
+    return res.redirect(301, '/agents');
+  });
+
+  app.get('/search-basic.php', function(req, res) {
+    return res.redirect(301, 'http://idx.hklane.com/homesearch/51244');
+  });
+
+  app.get('/search-advanced.php', function(req, res) {
+    return res.redirect(301, 'http://idx.hklane.com/homesearch/51244');
+  });
+
+  app.get('/search-address.php', function(req, res) {
+    return res.redirect(301, 'http://idx.hklane.com/homesearch/51244');
+  });
+
+  app.get('/search-number.php', function(req, res) {
+    return res.redirect(301, 'http://idx.hklane.com/homesearch/51244');
+  });
+
+  app.get('/search-number.php', function(req, res) {
+    return res.redirect(301, 'http://idx.hklane.com/homesearch/51244');
   });
 
   app.listen(app.get('port'), function() {

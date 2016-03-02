@@ -3,7 +3,7 @@ html body a:focus {
   cursor: pointer;
 }
 html body footer {
-  color: #7f7f7f;
+  color: #555;
 }
 html body footer ul#footer {
   list-style-type: none;
@@ -24,8 +24,11 @@ html body footer .footer-text {
   line-height: 15px;
 }
 @media only screen and (max-width: 992px) {
+  html body footer .row#mainRow {
+    margin-bottom: 15px;
+  }
   html body footer .row#iconRow {
-    margin: 50px auto 30px auto;
+    margin: 30px auto 30px auto;
   }
   html body footer .col-md-2 {
     margin: 0px auto;
@@ -38,12 +41,12 @@ html body footer .footer-text {
     height: 80px;
   }
   html body footer .footer-border {
-    border-bottom: 1px solid #7f7f7f;
+    border-bottom: 1px solid #555;
   }
 }
 @media only screen and (min-width: 992px) {
   html body footer .row#iconRow {
-    margin: 95px auto 55px auto;
+    margin: 55px auto 55px auto;
   }
   html body footer .row#mainRow {
     margin: 55px auto 55px auto;
@@ -53,7 +56,7 @@ html body footer .footer-text {
   }
   html body footer .footer-border {
     display: block;
-    border-right: 1px solid #7f7f7f;
+    border-right: 1px solid #555;
   }
 }
 @media only screen and (max-width: 922px) {
