@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Request>
+			    
+			    <success count="0"/>
+			    <fail count="1"/>
+			    <message>No listings could be found</message>
+			    
+			  </Request>

@@ -1,0 +1,47 @@
+<?php  
+
+
+	include 'config.php';
+	include 'data_functions.php';
+	
+    $client = new SoapClient('https://secure.idxre.com/ihws/AgentWebService.cfc?wsdl');    
+    $xml_result = $client->getAllAgents($uid, $sid);  
+	$xmlobject = new SimpleXMLElement($xml_result);
+	
+	
+
+	//sort xml results by firstname
+		
+	include 'SimpleDOM.php';
+
+	$page = simpledom_load_string($xml_result);
+
+	$nodes = $page->sortedXPath('//agent', './firstname');
+	$outstring = '<?xml version="1.0" encoding="UTF-8"?>
+	<agentlist name="agents">' . "\n";
+	foreach ($nodes as $node)
+	{
+		$outstring .= $node->asXML() . "\n";
+	}
+	 $outstring .= '</agentlist>';
+
+	$newfile="agents.xml"; 	
+	$file = fopen ($newfile, "w"); 
+	fwrite($file, $outstring); 
+	fclose ($file);
+	
+	//properties data
+	$proptype = "SFR,CND,LL,RI,FRM,MH,RNT";
+	$xml_active = getDetailedListingsXML($uid, $sid, $proptype, 1, 0);
+
+	$newfile="properties.xml";
+	$file = fopen ($newfile, "w");
+	fwrite($file, $xml_active);
+	fclose($file);
+
+	echo "finished";
+	
+	
+	
+	
+	?> 

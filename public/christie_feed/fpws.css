@@ -1,0 +1,46 @@
+/*
+		table  	{ border:#000 solid 1px; width: 500px; margin-bottom: 5px; }
+		td		{ background-color:#DDD; padding: 2px; margin: 0px; font-size:12px; }
+		p		{ line-height: 14px; margin-top: 0px; margin-bottom: 5px; }
+*/
+
+div.listing 			{ background-color:black; border:#CCC solid 1px; margin: 10px; width: 718px; min-height: 300px; }
+div.listing div.listing-head 		{ }
+div.listing div.listing-main-info 	{ background-color:#DDD; float:left; width: 302px; padding: 5px; margin: 5px; margin-right: 2px; }
+div.listing div.listing-photo		{ float:right; width: 270px; padding: 5px; margin: 5px; margin-left: 2px;}
+div.listing div.listing-remarks		{ background-color:#CCC; clear:both; margin: 5px; padding: 5px; }
+div.listing div.property-features	{ background-color:#CCC; clear:both; margin: 5px; padding: 5px; }
+div.listing span.openhouse				{ color:#F00; font-weight: bold; }
+div.listing span.openhouse-agent		{ font-weight: normal; font-style: italic; }
+div.listing ul.links					{ list-style:none; margin:15px 0px; padding: 0; }
+div.listing ul.links li					{ margin-left:0; margin-bottom: 2px; }
+div.listing ul.links li a:link			{ text-decoration: none; font-weight: bold; }
+div.listing ul.links li a:hover			{ text-decoration: underline; font-weight: bold; }
+div.listing ul.links li a:active		{ text-decoration: none; font-weight: bold; }
+div.listing ul.links li a:visited		{ text-decoration: none; font-weight: bold; }
+img { width: 133px; height:146px;}
+
+div.listing ul.features					{ list-style:none; margin:15px 0px; padding: 0; }
+div.listing ul.features li				{ margin-left:0; margin-bottom: 2px; }
+div.listing ul.features li a:link		{ text-decoration: none; font-weight: bold; }
+div.listing ul.features li a:hover		{ text-decoration: underline; font-weight: bold; }
+div.listing ul.features li a:active		{ text-decoration: none; font-weight: bold; }
+div.listing ul.features li a:visited	{ text-decoration: none; font-weight: bold; }	
+
+div.listing a							{ color:#00F; font-weight:bold; text-decoration: none; }
+div.listing a:link						{ color:#00F; font-weight:bold; text-decoration: none; }
+div.listing a:hover						{ color:#99F; font-weight:bold; text-decoration: none; }
+div.listing a:visited					{ color:#00F; font-weight:bold; text-decoration: none; }
+div.listing p 							{ margin-top: 2px; margin-bottom: 2px; }
+
+/* DEBUG STYLES */
+/*
+div.listing 			{ border:red solid 3px; }
+div.listing div.listing-head 		{ border:green solid 3px; }
+div.listing div.listing-main-info 	{ border:blue solid 3px; }
+
+div.listing div.listing-photo		{ border:purple solid 2px; }
+div.listing div.listing-remarks		{ border:yellow solid 2px; }
+div.listing div.property-features	{ border:gray solid 2px; }
+*/
+
