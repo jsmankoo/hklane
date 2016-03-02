@@ -33,10 +33,15 @@ block scripts
     :coffee-script
       app = angular.module 'agents', []
       app.controller 'agentsCtrl', ($scope, $http)->
+        $('.loader').fadeOut 'slow'
+        $scope.json = (for i in [0..10]
+          {
+            photo: '/img/loading.jpg'
+          }
+        )
         $http.get('/api/agents').then (res)->
           $scope.sortType = 'name'
           $scope.searchAgent = ''
 
           $scope.json = res.data
-          $('.loader').fadeOut 'slow'
       
