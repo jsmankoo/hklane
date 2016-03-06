@@ -45,7 +45,7 @@ app.get '/api/feature/:propType', (req, res)->
             if result.Request
                 res.json []
             else
-                res.json result.featured_props.featured_prop
+                res.json result.featured_props.featured_prop[0..10]
 
 app.get '/api/prop/:propType/:listingNumber/:MLSID', (req, res)->
     propArg = agentsArgs
@@ -67,16 +67,7 @@ app.get '/api/agents', (req, res)->
             res.json shuffle.knuthShuffle agentsArray
 
 app.get '/', (req, res)->
-    soap.createClient propUrl, (err, client)->
-        client.getProps propArgs, (err, result)->
-            result = JSON.parse parser.toJson result.getPropsReturn['$value']
-            resultArray = result.featured_props.featured_prop
-            sortedArray = resultArray.sort (a,b)->
-                    parseInt b.list_price - parseInt a.list_price
-
-            res.render 'index', {
-                featureProp: sortedArray[0..10]
-            }
+  res.render 'index'
 
 app.get '/story', (req, res)->
     res.render 'story'
@@ -113,10 +104,10 @@ app.get '/services.php', (req, res) -> res.redirect 301, '/services'
 app.get '/locations.php', (req, res) -> res.redirect 301, '/locations'
 app.get '/christies.php', (req, res) -> res.redirect 301, '/christies'
 app.get '/agents.php', (req, res) -> res.redirect 301, '/agents'
-app.get '/search-basic.php', (req, res) -> res.redirect 301, 'http://hklane.idxhome.com/homesearch/51244'
-app.get '/search-advanced.php', (req, res) -> res.redirect 301, 'http://hklane.idxhome.com/homesearch/51244'
-app.get '/search-address.php', (req, res) -> res.redirect 301, 'http://hklane.idxhome.com/homesearch/51244'
-app.get '/search-number.php', (req, res) -> res.redirect 301, 'http://hklane.idxhome.com/homesearch/51244'
+app.get '/search-basic.php', (req, res) -> res.redirect 301, 'http://idx.hklane.com/homesearch/51244'
+app.get '/search-advanced.php', (req, res) -> res.redirect 301, 'http://idx.hklane.com/homesearch/51244'
+app.get '/search-address.php', (req, res) -> res.redirect 301, 'http://idx.hklane.com/homesearch/51244'
+app.get '/search-number.php', (req, res) -> res.redirect 301, 'http://idx.hklane.com/homesearch/51244'
 
 app.listen app.get('port'), ->
     console.log "HKLane started on port: #{app.get 'port'}"

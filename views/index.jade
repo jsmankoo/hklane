@@ -16,20 +16,50 @@ block content
       .row
         h2.sub-heading.text-center FEATURED PROPERTIES
         h6.link.text-center
-          a(href='http://hklane.idxre.com/featured/51244') SEE ALL
+          a(href='http://idx.hklane.com/featured/51244') SEE ALL
         #featuredProp
-          - function nC(x) { return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","); }
-          - function sD(x){ return x.replace(/\s+/g, '-'); }
-          each prop in featureProp
-            .property.col-md-4
-              a(href='http://hklane.idxre.com/homes/#{prop.mlsid}/51244/#{sD(prop.house_numb)}-#{sD(prop.street_nam)}-#{sD(prop.city_name)}-#{sD(prop.state)}-#{sD(prop.zip)}/#{prop.listingnumber}')
-                img(src=prop.ihfphotourl)
-              h4.text-center $ #{nC(parseInt(prop.list_price))}
-              p.paragraph.text-center #{prop.house_numb} #{prop.street_nam} <br> #{prop.city_name}, #{prop.state} #{prop.zip}
-              h6.link.text-center
-                a(href='http://hklane.idxre.com/homes/#{prop.mlsid}/51244/#{sD(prop.house_numb)}-#{sD(prop.street_nam)}-#{sD(prop.city_name)}-#{sD(prop.state)}-#{sD(prop.zip)}/#{prop.listingnumber}') MORE
 
 block scripts
+  script
+    :coffee-script
+      wpServer = 'http://hklane2015.uptowncreativeinc.com/wp-json/wp/v2'
+      nC = (x) -> x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
+      sD = (x) -> x.replace(/\s+/g, '-')
+      featureProp = $ '#featuredProp'
+      $.get '/api/feature/SFR'
+        .then (data)->
+          for {mlsid, house_numb, street_nam, city_name, state, zip, listingnumber, ihfphotourl, list_price} in data
+            item =
+              "
+                <div class='property col-md-4'>
+                  <a href='http://hklane.idxre.com/homes/#{mlsid}/51244/#{sD(house_numb)}-#{sD(street_nam)}-#{sD(city_name)}-#{sD(state)}-#{sD(zip)}/#{listingnumber}'>
+                    <img src='#{ihfphotourl}'>
+                  </a>
+                  <h4 class='text-center'>
+                    $ #{nC(parseInt(list_price))}
+                  </h4>
+                  <p class='paragraph text-center'>
+                    #{house_numb} #{street_nam} <br> #{city_name}, #{state} #{zip}
+                  </p>
+                  <h6 class='link text-center'>
+                    <a href='http://hklane.idxre.com/homes/#{mlsid}/51244/#{sD(house_numb)}-#{sD(street_nam)}-#{sD(city_name)}-#{sD(state)}-#{sD(zip)}/#{listingnumber}'>
+                      MORE
+                    </a>
+                  </h6>
+                </div>
+              "
+            featureProp.append $(item)
+          $("#featuredProp").owlCarousel {
+            pagination: true,
+            loop: true,
+            autoPlay: 5000,
+            items: 3,
+            itemsTablet: [1200,2],
+            itemsMobile: [768,1]
+          } 
+
+            
+
   script.
     var wpServer = 'http://hklane2015.uptowncreativeinc.com/wp-json/wp/v2';
     $.getJSON(wpServer + '/pages/186', function(data){
@@ -103,12 +133,3 @@ block scripts
       section.append(content);
       section.css({opacity: 1});
     });
-
-    $("#featuredProp").owlCarousel({
-                        pagination: true,
-                        loop: true,
-                        autoPlay: 5000,
-                        items: 3,
-                        itemsTablet: [1200,2],
-                        itemsMobile: [768,1]
-                      });
