@@ -328,6 +328,9 @@ html body .location .email {
   html body .location .directions {
     margin: 0px auto 25px;
   }
+  html body .location .directions a i.fa {
+    font-size: 50px;
+  }
   html body #palmSprings,
   html body #palmDesert {
     display: block;
@@ -379,8 +382,11 @@ html body .location .email {
   }
   html body .location .right .directions {
     display: block;
-    margin: auto;
+    margin: 15px auto;
     text-align: center;
     padding-right: 90px;
+  }
+  html body .location .right .directions a i.fa {
+    font-size: 60px;
   }
 }
