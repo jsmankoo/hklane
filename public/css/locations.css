@@ -171,6 +171,13 @@ html body footer .footer-text {
   margin: auto 20px;
   line-height: 15px;
 }
+html body footer .socialMedia {
+  margin: 10px auto;
+}
+html body footer .socialMedia a {
+  font-size: 20px;
+  margin: auto 10px;
+}
 @media only screen and (max-width: 992px) {
   html body footer .row#mainRow {
     margin-bottom: 15px;
@@ -197,7 +204,7 @@ html body footer .footer-text {
     margin: 55px auto 55px auto;
   }
   html body footer .row#mainRow {
-    margin: 55px auto 55px auto;
+    margin: 55px auto 20px auto;
   }
   html body footer .col-md-2 {
     height: 118px;
@@ -321,6 +328,9 @@ html body .location .email {
   html body .location .directions {
     margin: 0px auto 25px;
   }
+  html body .location .directions a i.fa {
+    font-size: 50px;
+  }
   html body #palmSprings,
   html body #palmDesert {
     display: block;
@@ -372,8 +382,11 @@ html body .location .email {
   }
   html body .location .right .directions {
     display: block;
-    margin: auto;
+    margin: 15px auto;
     text-align: center;
     padding-right: 90px;
+  }
+  html body .location .right .directions a i.fa {
+    font-size: 60px;
   }
 }

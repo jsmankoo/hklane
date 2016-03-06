@@ -55,7 +55,7 @@
         if (result.Request) {
           return res.json([]);
         } else {
-          return res.json(result.featured_props.featured_prop);
+          return res.json(result.featured_props.featured_prop.slice(0, 11));
         }
       });
     });
@@ -88,19 +88,7 @@
   });
 
   app.get('/', function(req, res) {
-    return soap.createClient(propUrl, function(err, client) {
-      return client.getProps(propArgs, function(err, result) {
-        var resultArray, sortedArray;
-        result = JSON.parse(parser.toJson(result.getPropsReturn['$value']));
-        resultArray = result.featured_props.featured_prop;
-        sortedArray = resultArray.sort(function(a, b) {
-          return parseInt(b.list_price - parseInt(a.list_price));
-        });
-        return res.render('index', {
-          featureProp: sortedArray.slice(0, 11)
-        });
-      });
-    });
+    return res.render('index');
   });
 
   app.get('/story', function(req, res) {
@@ -176,10 +164,6 @@
   });
 
   app.get('/search-address.php', function(req, res) {
-    return res.redirect(301, 'http://idx.hklane.com/homesearch/51244');
-  });
-
-  app.get('/search-number.php', function(req, res) {
     return res.redirect(301, 'http://idx.hklane.com/homesearch/51244');
   });
 
