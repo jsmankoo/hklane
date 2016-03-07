@@ -335,7 +335,6 @@ html body .profile {
     margin: 21px auto;
   }
   html body .agents .agent img {
-    border: 1px solid #ccc;
     width: 150px;
     height: 150px;
   }
@@ -397,7 +396,6 @@ html body .profile {
   html body .agents .agent img {
     width: 150px;
     height: 150px;
-    border: 1px solid #ccc;
   }
   html body .agents .agent .name {
     margin: 28px auto 12px;
