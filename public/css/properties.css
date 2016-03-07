@@ -270,6 +270,7 @@ html body nav.navbar .nav.navbar-nav .dropdown#ourProperties a {
 }
 html body #ihf-main-container .page-header {
   text-align: center;
+  border-bottom: 1px solid #ccc;
 }
 html body #ihf-main-container a {
   text-decoration: none;

@@ -17,9 +17,9 @@ block content
       .agents
         .col-md-4.col-sm-6(ng-repeat='x in json | filter:search | orderBy:sortType')
           .agent.thumbnail
-            a(ng-href='http://hklane.idxre.com/agents/51244/{{x.id}}/{{x.firstname}}-{{x.lastname}}')
+            a(ng-href='http://idx.hklane.com/agent/51244/{{x.id}}')
               img(ng-src="{{x.photo}}")
-            a(ng-href='http://hklane.idxre.com/agents/51244/{{x.id}}/{{x.firstname}}-{{x.lastname}}')
+            a(ng-href='http://idx.hklane.com/agent/51244/{{x.id}}')
               h2.name.text-center {{x.firstname}} {{x.lastname}}
             p.cell.text-center(ng-if='x.cellphone.length > 0') Cell: {{x.cellphone}}
             p.cell.text-center(ng-if='x.officephone.length > 0') {{x.officephone}}
