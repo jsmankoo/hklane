@@ -57,11 +57,12 @@ block scripts
             itemsTablet: [1200,2],
             itemsMobile: [768,1]
           } 
-          $(".loader").fadeOut("slow");
+          
 
   script.
     var wpServer = 'http://hklane2015.uptowncreativeinc.com/wp-json/wp/v2';
     $.getJSON(wpServer + '/pages/186', function(data){
+      $(".loader").fadeOut("slow");
       var images = $(data.content.rendered);
       var slideShow = $("#slide-show");
       slideShow.append(images);
@@ -119,9 +120,8 @@ block scripts
           });
         }
       }
-
+      
       cropSlide();
-
       $(window).resize(cropSlide);
     });
     $.getJSON(wpServer + '/pages/5', function(data){
