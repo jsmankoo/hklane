@@ -332,11 +332,12 @@ html body .location .email {
     font-size: 50px;
   }
   html body #palmSprings,
-  html body #palmDesert {
+  html body #palmDesert1 {
     display: block;
     text-align: center;
     background: none;
   }
+  html body #palmDesert2,
   html body #laQuinta {
     display: block;
     margin: 0px -15px;
@@ -371,7 +372,7 @@ html body .location .email {
     padding-left: 25px;
   }
   html body .location .left .row .fullAddress .city {
-    padding-bottom: 20px;
+    padding-bottom: 0px;
   }
   html body .location .right {
     margin: 20px 0px 20px;
