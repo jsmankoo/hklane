@@ -22,12 +22,12 @@
 
   agentsArgs = {
     uid: 51244,
-    sid: 'psprings244'
+    sid: process.argv[2]
   };
 
   propArgs = {
     uid: 51244,
-    sid: 'psprings244',
+    sid: process.argv[2],
     propType: 'SFR',
     getActiveListings: true,
     getPendingSoldListings: false

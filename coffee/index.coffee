@@ -12,16 +12,17 @@ shuffle = require 'knuth-shuffle'
 #             LL (Lots and Land), RNT (Rentals), COM (Commercial)
 agentURL = 'https://secure.idxre.com/ihws/AgentWebService.cfc?wsdl'
 propUrl = 'https://secure.idxre.com/ihws/FeaturedPropWebService.cfc?wsdl'
+
 agentsArgs =
     uid: 51244
-    sid: 'psprings244'
+    sid: process.argv[2]
+
 propArgs =
     uid: 51244
-    sid: 'psprings244'
+    sid: process.argv[2]
     propType: 'SFR'
     getActiveListings: true
     getPendingSoldListings: false
-
 
 #init app
 app = express()
@@ -37,6 +38,7 @@ app.use express.static "./public", {
 
 
 ##API
+
 app.get '/api/feature/:propType', (req, res)->
     propArgs.propType = req.params.propType
     soap.createClient propUrl, (err, client)->
@@ -56,7 +58,6 @@ app.get '/api/prop/:propType/:listingNumber/:MLSID', (req, res)->
         client.getPropDetail propArg, (err, result)->
             result = JSON.parse parser.toJson result.getPropDetailReturn['$value']
             res.json result.featured_prop
-
 
 app.get '/api/agents', (req, res)->
     soap.createClient agentURL, (err, client)->

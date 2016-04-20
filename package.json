@@ -11,9 +11,9 @@
     "CCoffeeW": "coffee -c -w -o ./dist/ ./coffee/",
     "CStylus": "stylus -u nib -u rupture ./styl -o ./public/css",
     "CStylusW": "stylus -u nib -u rupture -w ./styl -o ./public/css",
-    "FStart":"forever start ./dist/index.js",
-    "FList":"forever list",
-    "FStop":"forever stop"
+    "FStart": "forever start ./dist/index.js",
+    "FList": "forever list",
+    "FStop": "forever stop"
   },
   "author": "",
   "license": "ISC",
@@ -27,6 +27,7 @@
     "knuth-shuffle": "^1.0.1",
     "morgan": "^1.6.1",
     "nib": "^1.1.0",
+    "nodemon": "^1.9.1",
     "request": "^2.67.0",
     "rupture": "^0.6.1",
     "soap": "^0.11.4",

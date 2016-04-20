@@ -17,7 +17,7 @@
 $uid = "51244";
 
 // password for account
-$sid = "psprings244";
+$sid = "hklane";
 
 $bid = "19"; // a guess, corresponds to MLS ID?
 
