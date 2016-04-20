@@ -1,8 +1,6 @@
 <?php  
+    include "config.php";
 
-    $uid = "51244";      
-    $sid = "psprings244";
-    
     $opts = array(
         'http'=>array(
             'user_agent' => 'PHPSoapClient'
