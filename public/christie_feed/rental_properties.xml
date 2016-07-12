@@ -100,7 +100,7 @@
 									
 										<ListingStatusDisplay display_name="ListingStatusDisplay"/>
 									
-										<ListPrice display_name="List Price"><![CDATA[18000.000000000000]]></ListPrice>
+										<ListPrice display_name="List Price"><![CDATA[16000.000000000000]]></ListPrice>
 									
 										<Longitude display_name="Longitude"><![CDATA[-116.284164]]></Longitude>
 									
@@ -114,17 +114,17 @@
 									
 										<LotSqFt display_name="Lot Size in Sq. Ft."><![CDATA[21344]]></LotSqFt>
 									
-										<Misc1 display_name="Disclosures"><![CDATA[216005022]]></Misc1>
+										<Misc1 display_name="Disclosures"><![CDATA[CC and Râ??s,Homeowners Assoc]]></Misc1>
 									
-										<Misc1 display_name="Lease Terms"><![CDATA[216005022]]></Misc1>
-									
-										<Misc1 display_name="MLNumber"><![CDATA[216005022]]></Misc1>
+										<Misc1 display_name="Lease Terms"><![CDATA[CC and Râ??s,Homeowners Assoc]]></Misc1>
 									
 										<Misc2 display_name="Land"/>
 									
 										<Misc2 display_name="Land Fee or Lease"/>
 									
 										<Misc2 display_name="Sale Type"/>
+									
+										<Misc2YN display_name="No Gated Community search"/>
 									
 										<Misc3 display_name="Land Lease Purchase"/>
 									
@@ -176,7 +176,7 @@
 									
 										<Region display_name="Partial APN search"><![CDATA[646400]]></Region>
 									
-										<Remarks display_name="Remarks"><![CDATA[AVAILABLE March and April 2016! SOUTH and east views of Santa Rosa Mountains & amazing views of lakes, the 1st & 18th fairways of the Jones course & the spectacular waterfall at signature 18th green! Fantastic 1/2 acre estate with salt water POOL/SPA, BBQ, Misters and more! Sleeps 8 in four ensuite bedrooms. Upgraded to perfection with the finest of finishes & materials...intricately crafted walnut & zebra wood built-ins, inlaid doors & faux painted cabinetry. Bamboo accents, vibrant paint finishes & hand-made wall & ceiling coverings, upgraded designer lighting. State-of-the art kitchen has commercial grade appliances & rich granite surfaces & backsplash. Deluxe detached guest casita sits far away from the home. It boasts a fireplace, bar service area, great lake & golf course views. Wi-Fi Internet & Phone (unlimited calls USA/Canada). Bedrooms: Master is King, other two bedrooms in main house are Kings, bed in Casita is Queen. RLQCC Rules re festival months - Call us for details.]]></Remarks>
+										<Remarks display_name="Remarks"><![CDATA[AVAILABLE January-March 2017! SOUTH and east views of Santa Rosa Mountains & amazing views of lakes, the 1st & 18th fairways of the Jones course & the spectacular waterfall at signature 18th green! Fantastic 1/2 acre estate with salt water POOL/SPA, BBQ, Misters and more! Sleeps 8 in four ensuite bedrooms. Upgraded to perfection with the finest of finishes & materials...intricately crafted walnut & zebra wood built-ins, inlaid doors & faux painted cabinetry. Bamboo accents, vibrant paint finishes & hand-made wall & ceiling coverings, upgraded designer lighting. State-of-the art kitchen has commercial grade appliances & rich granite surfaces & backsplash. Deluxe detached guest casita sits far away from the home. It boasts a fireplace, bar service area, great lake & golf course views. Wi-Fi Internet & Phone (unlimited calls USA/Canada). Bedrooms: Master is King, other two bedrooms in main house are Kings, bed in Casita is Queen.]]></Remarks>
 									
 										<Rooms display_name="Rooms"><![CDATA[Dining Room,Family Room,Formal Entry,Guest Room,Living Room,Office,Utility Room,Walk In Pantry]]></Rooms>
 									
@@ -353,6 +353,354 @@
 										<thumbphoto40>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/022/216005022_39.jpg?ihfrts=20160210170429132</thumbphoto40>
 									
 							</featured_prop>
+<featured_prop listingnumber="215022660" mlsid="312">
+								
+								
+										<AgedCommunityYN display_name="Is Aged Restricted"/>
+									
+										<AgentCode display_name="Agent Code"><![CDATA[D20161]]></AgentCode>
+									
+										<AgentName display_name="Agent Name"><![CDATA[Joan Castro]]></AgentName>
+									
+										<Amenities display_name="Amenities"/>
+									
+										<APN display_name="APN"><![CDATA[609580008]]></APN>
+									
+										<Bath3Qtr display_name="3/4 Baths"/>
+									
+										<BathCount display_name="Total Bathrooms"><![CDATA[4]]></BathCount>
+									
+										<BathHalf display_name="1/2 Baths"/>
+									
+										<BathQtr display_name="1/4 Baths"/>
+									
+										<Bedrooms display_name="Number of Bedrooms"><![CDATA[5]]></Bedrooms>
+									
+										<blogPolicy display_name="Blog Policy"><![CDATA[1]]></blogPolicy>
+									
+										<City display_name="City"><![CDATA[La Quinta]]></City>
+									
+										<coAgentCode display_name="co Agent Code"/>
+									
+										<coAgentName display_name="co Agent Name"/>
+									
+										<Community display_name="Community Features"><![CDATA[Community Mailbox]]></Community>
+									
+										<ComplexName display_name="Association Name"/>
+									
+										<ComplexName display_name="Complex Name"/>
+									
+										<coOfficeCode display_name="co Office Code"/>
+									
+										<coOfficeName display_name="co Office Name"/>
+									
+										<County display_name="County"><![CDATA[Riverside]]></County>
+									
+										<DiningRoomDesc display_name="Dining Room Description"><![CDATA[Breakfast,Breakfast Nook,Breakfast Room,Breakfast/Bar,Dining Area,Eat In Kitchen,Kitchen Island]]></DiningRoomDesc>
+									
+										<DiningRoomYN display_name="Has Dining Room"/>
+									
+										<Directions display_name="Directions"><![CDATA[Enter at front gate on Fred Waring. Turn  right on Parkway Esplande S, Left on Bordeaux, Right on Calle Espada, right on Corte Nuevo. House at end of cul-de-sac.]]></Directions>
+									
+										<DocumentsAvailable display_name="Disclosures"/>
+									
+										<EatingArea display_name="Eating Area"/>
+									
+										<ElementarySchool display_name="Elementary School"/>
+									
+										<FamilyRoomYN display_name="Has Family Room"/>
+									
+										<Features display_name="Features"><![CDATA[Barbecue Private,Premium Lot]]></Features>
+									
+										<FeesInclude display_name="Fees Include"/>
+									
+										<FireplaceDesc display_name="Fireplace Description"><![CDATA[Electric,Glass Doors]]></FireplaceDesc>
+									
+										<FireplaceDesc display_name="Fireplace Features"><![CDATA[Electric,Glass Doors]]></FireplaceDesc>
+									
+										<FireplaceYN display_name="Has Fireplace"><![CDATA[1]]></FireplaceYN>
+									
+										<ForeclosureYN display_name="Is a Foreclosure"/>
+									
+										<FullBaths display_name="Number of Full Bathrooms"><![CDATA[4]]></FullBaths>
+									
+										<FullPartialAddress display_name="Full/Partial Address"><![CDATA[F]]></FullPartialAddress>
+									
+										<garageDesc display_name="Garage Description"><![CDATA[Attached]]></garageDesc>
+									
+										<GarageSpaces display_name="Garage Spaces"><![CDATA[2]]></GarageSpaces>
+									
+										<GarYN display_name="Has Garage"><![CDATA[1]]></GarYN>
+									
+										<GeographicLike display_name="Subdivision/TractCode like search"><![CDATA[Esplanade]]></GeographicLike>
+									
+										<GolfCourseYN display_name="Has Golf Course"/>
+									
+										<HalfBaths display_name="Number of Half Bathrooms"><![CDATA[0]]></HalfBaths>
+									
+										<HeatingFuel display_name="Fireplace Fuel"><![CDATA[Electric]]></HeatingFuel>
+									
+										<HighSchool display_name="High School"/>
+									
+										<HOAFee display_name="HOA Fee"><![CDATA[165.0000]]></HOAFee>
+									
+										<HorsePropertyYN display_name="Is a Horse Property"/>
+									
+										<JrHighSchool display_name="Jr. High School"/>
+									
+										<Latitude display_name="Latitude"><![CDATA[33.731716]]></Latitude>
+									
+										<ListingNumber display_name="Listing Number"><![CDATA[215022660]]></ListingNumber>
+									
+										<ListingStatusDisplay display_name="ListingStatusDisplay"/>
+									
+										<ListPrice display_name="List Price"><![CDATA[10000.000000000000]]></ListPrice>
+									
+										<Longitude display_name="Longitude"><![CDATA[-116.274178]]></Longitude>
+									
+										<LotAcres display_name="Lot Size in Acres"><![CDATA[0.570000000000]]></LotAcres>
+									
+										<LotDesc display_name="Lot Location"><![CDATA[Cul-De-Sac]]></LotDesc>
+									
+										<LotDescription display_name="Lot Description"/>
+									
+										<LotDescription display_name="Lot Location"/>
+									
+										<LotSqFt display_name="Lot Size in Sq. Ft."><![CDATA[24829]]></LotSqFt>
+									
+										<Misc1 display_name="Disclosures"><![CDATA[CC and Râ??s,Home Warranty Plan,Homeowners Assoc,LA/Owner Related,Owner Has R.E.Lic,Planned Unit Develop]]></Misc1>
+									
+										<Misc1 display_name="Lease Terms"><![CDATA[CC and Râ??s,Home Warranty Plan,Homeowners Assoc,LA/Owner Related,Owner Has R.E.Lic,Planned Unit Develop]]></Misc1>
+									
+										<Misc2 display_name="Land"/>
+									
+										<Misc2 display_name="Land Fee or Lease"/>
+									
+										<Misc2 display_name="Sale Type"/>
+									
+										<Misc2YN display_name="No Gated Community search"/>
+									
+										<Misc3 display_name="Land Lease Purchase"/>
+									
+										<Misc3 display_name="Sale Type"/>
+									
+										<Misc4 display_name="Sale Type"/>
+									
+										<Misc4YN display_name="Active Listings Only"/>
+									
+										<MiscInt1 display_name="Max Year Built search"/>
+									
+										<MiscInt3 display_name="Probate Property search"/>
+									
+										<MiscInt5 display_name="Is a HUD/Gov. Owned search"/>
+									
+										<MiscInt6 display_name="Gated Community"/>
+									
+										<MiscString2 display_name="Terms"/>
+									
+										<MiscString3 display_name="Land Fee/Lease search"/>
+									
+										<MiscString4 display_name="View search"/>
+									
+										<MLSArea display_name="MLS Area"><![CDATA[La Quinta No of HWY]]></MLSArea>
+									
+										<MLSPhotoCount display_name="MLSPhotoCount"><![CDATA[38]]></MLSPhotoCount>
+									
+										<Neighborhood display_name="complex name search"/>
+									
+										<OfficeCode display_name="Office Code"><![CDATA[D8888]]></OfficeCode>
+									
+										<OfficeName display_name="Office Name"><![CDATA[HK Lane/Christie's International]]></OfficeName>
+									
+										<OneStoryYN display_name="Is One Story"/>
+									
+										<ParkAmenities display_name="Park Amenities"/>
+									
+										<PoolDesc display_name="Pool Description"><![CDATA[Pool-Heated/Gas,Pool-Exercise,Pool-Salt/Saline]]></PoolDesc>
+									
+										<PoolYN display_name="Has a Pool"><![CDATA[1]]></PoolYN>
+									
+										<PropertyLocation display_name="County adv. search"><![CDATA[Riverside]]></PropertyLocation>
+									
+										<PropertyLocation display_name="Property Location"><![CDATA[Riverside]]></PropertyLocation>
+									
+										<PropertySubType display_name="Property SubType"><![CDATA[Single Family Detach]]></PropertySubType>
+									
+										<PropertyType display_name="Property Type"><![CDATA[RNT]]></PropertyType>
+									
+										<Region display_name="Partial APN search"><![CDATA[609580]]></Region>
+									
+										<Remarks display_name="Remarks"><![CDATA[Book now for October. Live your dream in this newly designed lush landscaped south west lot with new private salt water 40 foot pool/9 foot tanning ledge/spa for 8/water feature/huge BBQ & rectangle fire pit. Large 5 bedroom & 4 bath home which could accommodate  10 guests with 2 Kings,2 Queens. 5th bedroom is an den/office with sofa. 7 flat screen TV including  TVs in each bedroom/den, great room and kitchen. The 3356 square foot home features an open flowing floor plan with large gourmet kitchen with eating area, new stainless 2 drawer dishwasher, Wolf cooktop & hood plus new huge  stainless refrigerator. Enjoy  the  dining room, cozy fireplace plus 5 sets of french doors leading to this amazing professional landscaped yard with complete privacy including a walking/biking path. Book early so you don't miss out on this fantastic setting. Call for availability & prices can vary depending on dates and number of occupants.]]></Remarks>
+									
+										<Rooms display_name="Rooms"><![CDATA[Dining Room,Entry,Formal Entry,Great Room,Guest Room,Living Room,Utility Room,Walk In Pantry]]></Rooms>
+									
+										<SchoolDistrict display_name="School District"><![CDATA[Desert Sands USD]]></SchoolDistrict>
+									
+										<searchPolicy display_name="Search Policy"><![CDATA[1]]></searchPolicy>
+									
+										<ShortSaleYN display_name="Is Short Sale"/>
+									
+										<SoldAgentCode display_name="SoldAgentCode"/>
+									
+										<SoldAgentName display_name="SoldAgentName"/>
+									
+										<SoldDate display_name="SoldDate"/>
+									
+										<SoldOfficeCode display_name="SoldOfficeCode"/>
+									
+										<SoldOfficeName display_name="SoldOfficeName"/>
+									
+										<SoldPrice display_name="SoldPrice"/>
+									
+										<Spa display_name="Spa"/>
+									
+										<SquareFeet display_name="Approximate Size (Sq. Ft.)"><![CDATA[3356]]></SquareFeet>
+									
+										<State display_name="State"><![CDATA[CA ]]></State>
+									
+										<Status display_name="Status"><![CDATA[Active]]></Status>
+									
+										<Stories display_name="Stories"/>
+									
+										<StreetName display_name="Street Name"><![CDATA[Corte Nuevo]]></StreetName>
+									
+										<StreetNumber display_name="Street Number"><![CDATA[79705]]></StreetNumber>
+									
+										<Style display_name="Style"/>
+									
+										<StyleLike display_name="Style"><![CDATA[Mediterranean]]></StyleLike>
+									
+										<Subdivision display_name="Subdivision"><![CDATA[Esplanade]]></Subdivision>
+									
+										<UnitNumber display_name="Unit Number"/>
+									
+										<ViewDescription display_name="View Description"><![CDATA[Panoramic View,Pool View]]></ViewDescription>
+									
+										<ViewYN display_name="Has View"><![CDATA[1]]></ViewYN>
+									
+										<VirtualTourLink display_name="Virtual Tour Link"><![CDATA[http://pfretour.com/mls/46329]]></VirtualTourLink>
+									
+										<YearBuilt display_name="Year Built"><![CDATA[2004]]></YearBuilt>
+									
+										<Zip display_name="Zip"><![CDATA[92253]]></Zip>
+									
+								<ihfphotourl>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660.jpg?ihfrts=20151029160821667</ihfphotourl>
+								
+										<photo01>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660.jpg?ihfrts=20151029160821667</photo01>
+										<thumbphoto01>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660.jpg?ihfrts=20151029160821667</thumbphoto01>
+									
+										<photo02>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_01.jpg?ihfrts=20151029160821667</photo02>
+										<thumbphoto02>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_01.jpg?ihfrts=20151029160821667</thumbphoto02>
+									
+										<photo03>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_02.jpg?ihfrts=20151029160821667</photo03>
+										<thumbphoto03>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_02.jpg?ihfrts=20151029160821667</thumbphoto03>
+									
+										<photo04>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_03.jpg?ihfrts=20151029160821667</photo04>
+										<thumbphoto04>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_03.jpg?ihfrts=20151029160821667</thumbphoto04>
+									
+										<photo05>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_04.jpg?ihfrts=20151029160821667</photo05>
+										<thumbphoto05>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_04.jpg?ihfrts=20151029160821667</thumbphoto05>
+									
+										<photo06>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_05.jpg?ihfrts=20151029160821667</photo06>
+										<thumbphoto06>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_05.jpg?ihfrts=20151029160821667</thumbphoto06>
+									
+										<photo07>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_06.jpg?ihfrts=20151029160821667</photo07>
+										<thumbphoto07>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_06.jpg?ihfrts=20151029160821667</thumbphoto07>
+									
+										<photo08>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_07.jpg?ihfrts=20151029160821667</photo08>
+										<thumbphoto08>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_07.jpg?ihfrts=20151029160821667</thumbphoto08>
+									
+										<photo09>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_08.jpg?ihfrts=20151029160821667</photo09>
+										<thumbphoto09>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_08.jpg?ihfrts=20151029160821667</thumbphoto09>
+									
+										<photo10>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_09.jpg?ihfrts=20151029160821667</photo10>
+										<thumbphoto10>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_09.jpg?ihfrts=20151029160821667</thumbphoto10>
+									
+										<photo11>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_10.jpg?ihfrts=20151029160821667</photo11>
+										<thumbphoto11>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_10.jpg?ihfrts=20151029160821667</thumbphoto11>
+									
+										<photo12>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_11.jpg?ihfrts=20151029160821667</photo12>
+										<thumbphoto12>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_11.jpg?ihfrts=20151029160821667</thumbphoto12>
+									
+										<photo13>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_12.jpg?ihfrts=20151029160821667</photo13>
+										<thumbphoto13>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_12.jpg?ihfrts=20151029160821667</thumbphoto13>
+									
+										<photo14>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_13.jpg?ihfrts=20151029160821667</photo14>
+										<thumbphoto14>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_13.jpg?ihfrts=20151029160821667</thumbphoto14>
+									
+										<photo15>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_14.jpg?ihfrts=20151029160821667</photo15>
+										<thumbphoto15>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_14.jpg?ihfrts=20151029160821667</thumbphoto15>
+									
+										<photo16>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_15.jpg?ihfrts=20151029160821667</photo16>
+										<thumbphoto16>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_15.jpg?ihfrts=20151029160821667</thumbphoto16>
+									
+										<photo17>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_16.jpg?ihfrts=20151029160821667</photo17>
+										<thumbphoto17>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_16.jpg?ihfrts=20151029160821667</thumbphoto17>
+									
+										<photo18>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_17.jpg?ihfrts=20151029160821667</photo18>
+										<thumbphoto18>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_17.jpg?ihfrts=20151029160821667</thumbphoto18>
+									
+										<photo19>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_18.jpg?ihfrts=20151029160821667</photo19>
+										<thumbphoto19>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_18.jpg?ihfrts=20151029160821667</thumbphoto19>
+									
+										<photo20>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_19.jpg?ihfrts=20151029160821667</photo20>
+										<thumbphoto20>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_19.jpg?ihfrts=20151029160821667</thumbphoto20>
+									
+										<photo21>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_20.jpg?ihfrts=20151029160821667</photo21>
+										<thumbphoto21>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_20.jpg?ihfrts=20151029160821667</thumbphoto21>
+									
+										<photo22>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_21.jpg?ihfrts=20151029160821667</photo22>
+										<thumbphoto22>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_21.jpg?ihfrts=20151029160821667</thumbphoto22>
+									
+										<photo23>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_22.jpg?ihfrts=20151029160821667</photo23>
+										<thumbphoto23>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_22.jpg?ihfrts=20151029160821667</thumbphoto23>
+									
+										<photo24>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_23.jpg?ihfrts=20151029160821667</photo24>
+										<thumbphoto24>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_23.jpg?ihfrts=20151029160821667</thumbphoto24>
+									
+										<photo25>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_24.jpg?ihfrts=20151029160821667</photo25>
+										<thumbphoto25>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_24.jpg?ihfrts=20151029160821667</thumbphoto25>
+									
+										<photo26>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_25.jpg?ihfrts=20151029160821667</photo26>
+										<thumbphoto26>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_25.jpg?ihfrts=20151029160821667</thumbphoto26>
+									
+										<photo27>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_26.jpg?ihfrts=20151029160821667</photo27>
+										<thumbphoto27>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_26.jpg?ihfrts=20151029160821667</thumbphoto27>
+									
+										<photo28>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_27.jpg?ihfrts=20151029160821667</photo28>
+										<thumbphoto28>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_27.jpg?ihfrts=20151029160821667</thumbphoto28>
+									
+										<photo29>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_28.jpg?ihfrts=20151029160821667</photo29>
+										<thumbphoto29>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_28.jpg?ihfrts=20151029160821667</thumbphoto29>
+									
+										<photo30>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_29.jpg?ihfrts=20151029160821667</photo30>
+										<thumbphoto30>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_29.jpg?ihfrts=20151029160821667</thumbphoto30>
+									
+										<photo31>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_30.jpg?ihfrts=20151029160821667</photo31>
+										<thumbphoto31>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_30.jpg?ihfrts=20151029160821667</thumbphoto31>
+									
+										<photo32>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_31.jpg?ihfrts=20151029160821667</photo32>
+										<thumbphoto32>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_31.jpg?ihfrts=20151029160821667</thumbphoto32>
+									
+										<photo33>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_32.jpg?ihfrts=20151029160821667</photo33>
+										<thumbphoto33>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_32.jpg?ihfrts=20151029160821667</thumbphoto33>
+									
+										<photo34>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_33.jpg?ihfrts=20151029160821667</photo34>
+										<thumbphoto34>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_33.jpg?ihfrts=20151029160821667</thumbphoto34>
+									
+										<photo35>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_34.jpg?ihfrts=20151029160821667</photo35>
+										<thumbphoto35>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_34.jpg?ihfrts=20151029160821667</thumbphoto35>
+									
+										<photo36>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_35.jpg?ihfrts=20151029160821667</photo36>
+										<thumbphoto36>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_35.jpg?ihfrts=20151029160821667</thumbphoto36>
+									
+										<photo37>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_36.jpg?ihfrts=20151029160821667</photo37>
+										<thumbphoto37>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_36.jpg?ihfrts=20151029160821667</thumbphoto37>
+									
+										<photo38>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_37.jpg?ihfrts=20151029160821667</photo38>
+										<thumbphoto38>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_37.jpg?ihfrts=20151029160821667</thumbphoto38>
+									
+							</featured_prop>
 <featured_prop listingnumber="216003205" mlsid="312">
 								
 								
@@ -454,7 +802,7 @@
 									
 										<ListingStatusDisplay display_name="ListingStatusDisplay"/>
 									
-										<ListPrice display_name="List Price"><![CDATA[11000.000000000000]]></ListPrice>
+										<ListPrice display_name="List Price"><![CDATA[9500.000000000000]]></ListPrice>
 									
 										<Longitude display_name="Longitude"><![CDATA[-116.248817]]></Longitude>
 									
@@ -468,17 +816,17 @@
 									
 										<LotSqFt display_name="Lot Size in Sq. Ft."><![CDATA[12632]]></LotSqFt>
 									
-										<Misc1 display_name="Disclosures"><![CDATA[216003205]]></Misc1>
+										<Misc1 display_name="Disclosures"/>
 									
-										<Misc1 display_name="Lease Terms"><![CDATA[216003205]]></Misc1>
-									
-										<Misc1 display_name="MLNumber"><![CDATA[216003205]]></Misc1>
+										<Misc1 display_name="Lease Terms"/>
 									
 										<Misc2 display_name="Land"/>
 									
 										<Misc2 display_name="Land Fee or Lease"/>
 									
 										<Misc2 display_name="Sale Type"/>
+									
+										<Misc2YN display_name="No Gated Community search"/>
 									
 										<Misc3 display_name="Land Lease Purchase"/>
 									
@@ -777,17 +1125,17 @@
 									
 										<LotSqFt display_name="Lot Size in Sq. Ft."><![CDATA[7841]]></LotSqFt>
 									
-										<Misc1 display_name="Disclosures"><![CDATA[215028782]]></Misc1>
+										<Misc1 display_name="Disclosures"/>
 									
-										<Misc1 display_name="Lease Terms"><![CDATA[215028782]]></Misc1>
-									
-										<Misc1 display_name="MLNumber"><![CDATA[215028782]]></Misc1>
+										<Misc1 display_name="Lease Terms"/>
 									
 										<Misc2 display_name="Land"/>
 									
 										<Misc2 display_name="Land Fee or Lease"/>
 									
 										<Misc2 display_name="Sale Type"/>
+									
+										<Misc2YN display_name="No Gated Community search"/>
 									
 										<Misc3 display_name="Land Lease Purchase"/>
 									
@@ -1095,17 +1443,17 @@
 									
 										<LotSqFt display_name="Lot Size in Sq. Ft."><![CDATA[14375]]></LotSqFt>
 									
-										<Misc1 display_name="Disclosures"><![CDATA[215024404]]></Misc1>
+										<Misc1 display_name="Disclosures"/>
 									
-										<Misc1 display_name="Lease Terms"><![CDATA[215024404]]></Misc1>
-									
-										<Misc1 display_name="MLNumber"><![CDATA[215024404]]></Misc1>
+										<Misc1 display_name="Lease Terms"/>
 									
 										<Misc2 display_name="Land"/>
 									
 										<Misc2 display_name="Land Fee or Lease"/>
 									
 										<Misc2 display_name="Sale Type"/>
+									
+										<Misc2YN display_name="No Gated Community search"/>
 									
 										<Misc3 display_name="Land Lease Purchase"/>
 									
@@ -1401,17 +1749,17 @@
 									
 										<LotSqFt display_name="Lot Size in Sq. Ft."><![CDATA[10454]]></LotSqFt>
 									
-										<Misc1 display_name="Disclosures"><![CDATA[216009428]]></Misc1>
+										<Misc1 display_name="Disclosures"/>
 									
-										<Misc1 display_name="Lease Terms"><![CDATA[216009428]]></Misc1>
-									
-										<Misc1 display_name="MLNumber"><![CDATA[216009428]]></Misc1>
+										<Misc1 display_name="Lease Terms"/>
 									
 										<Misc2 display_name="Land"/>
 									
 										<Misc2 display_name="Land Fee or Lease"/>
 									
 										<Misc2 display_name="Sale Type"/>
+									
+										<Misc2YN display_name="No Gated Community search"/>
 									
 										<Misc3 display_name="Land Lease Purchase"/>
 									
@@ -1671,17 +2019,17 @@
 									
 										<LotSqFt display_name="Lot Size in Sq. Ft."><![CDATA[8276]]></LotSqFt>
 									
-										<Misc1 display_name="Disclosures"><![CDATA[21436976]]></Misc1>
+										<Misc1 display_name="Disclosures"><![CDATA[CC and Râ??s]]></Misc1>
 									
-										<Misc1 display_name="Lease Terms"><![CDATA[21436976]]></Misc1>
-									
-										<Misc1 display_name="MLNumber"><![CDATA[21436976]]></Misc1>
+										<Misc1 display_name="Lease Terms"><![CDATA[CC and Râ??s]]></Misc1>
 									
 										<Misc2 display_name="Land"/>
 									
 										<Misc2 display_name="Land Fee or Lease"/>
 									
 										<Misc2 display_name="Sale Type"/>
+									
+										<Misc2YN display_name="No Gated Community search"/>
 									
 										<Misc3 display_name="Land Lease Purchase"/>
 									
@@ -1953,17 +2301,17 @@
 									
 										<LotSqFt display_name="Lot Size in Sq. Ft."><![CDATA[13068]]></LotSqFt>
 									
-										<Misc1 display_name="Disclosures"><![CDATA[215001390]]></Misc1>
+										<Misc1 display_name="Disclosures"><![CDATA[CC and Râ??s,Home Warranty Plan,Homeowners Assoc]]></Misc1>
 									
-										<Misc1 display_name="Lease Terms"><![CDATA[215001390]]></Misc1>
-									
-										<Misc1 display_name="MLNumber"><![CDATA[215001390]]></Misc1>
+										<Misc1 display_name="Lease Terms"><![CDATA[CC and Râ??s,Home Warranty Plan,Homeowners Assoc]]></Misc1>
 									
 										<Misc2 display_name="Land"/>
 									
 										<Misc2 display_name="Land Fee or Lease"/>
 									
 										<Misc2 display_name="Sale Type"/>
+									
+										<Misc2YN display_name="No Gated Community search"/>
 									
 										<Misc3 display_name="Land Lease Purchase"/>
 									
@@ -2259,17 +2607,17 @@
 									
 										<LotSqFt display_name="Lot Size in Sq. Ft."><![CDATA[3049]]></LotSqFt>
 									
-										<Misc1 display_name="Disclosures"><![CDATA[215026586]]></Misc1>
+										<Misc1 display_name="Disclosures"><![CDATA[CC and Râ??s,Homeowners Assoc]]></Misc1>
 									
-										<Misc1 display_name="Lease Terms"><![CDATA[215026586]]></Misc1>
-									
-										<Misc1 display_name="MLNumber"><![CDATA[215026586]]></Misc1>
+										<Misc1 display_name="Lease Terms"><![CDATA[CC and Râ??s,Homeowners Assoc]]></Misc1>
 									
 										<Misc2 display_name="Land"/>
 									
 										<Misc2 display_name="Land Fee or Lease"/>
 									
 										<Misc2 display_name="Sale Type"/>
+									
+										<Misc2YN display_name="No Gated Community search"/>
 									
 										<Misc3 display_name="Land Lease Purchase"/>
 									
@@ -2565,17 +2913,17 @@
 									
 										<LotSqFt display_name="Lot Size in Sq. Ft."><![CDATA[7405]]></LotSqFt>
 									
-										<Misc1 display_name="Disclosures"><![CDATA[215022614]]></Misc1>
+										<Misc1 display_name="Disclosures"><![CDATA[CC and Râ??s,Homeowners Assoc]]></Misc1>
 									
-										<Misc1 display_name="Lease Terms"><![CDATA[215022614]]></Misc1>
-									
-										<Misc1 display_name="MLNumber"><![CDATA[215022614]]></Misc1>
+										<Misc1 display_name="Lease Terms"><![CDATA[CC and Râ??s,Homeowners Assoc]]></Misc1>
 									
 										<Misc2 display_name="Land"/>
 									
 										<Misc2 display_name="Land Fee or Lease"/>
 									
 										<Misc2 display_name="Sale Type"/>
+									
+										<Misc2YN display_name="No Gated Community search"/>
 									
 										<Misc3 display_name="Land Lease Purchase"/>
 									
@@ -2627,7 +2975,7 @@
 									
 										<Region display_name="Partial APN search"><![CDATA[632610]]></Region>
 									
-										<Remarks display_name="Remarks"><![CDATA[AVAILABLE for the 2016-2017 Season! (4-month minimum). LEASED March-May 2016. CASA MESA GRANDE...High above Grove #16! Professionally decorated Bougainvillea 2 Spa home with fantastic views! East and south views! The outdoor entertaining yard is fenced, has an awning and a private SPA. Centrally located on an interior street, the courtyard is oversized and perfectly landscaped. Inside you'll find a sophisticated yet warm home with great attention to detail. Luxurious master has a king bed, the guest room has a queen bed, the office has a full pull-out. Club or Golf Membership is available - Call for details.]]></Remarks>
+										<Remarks display_name="Remarks"><![CDATA[LEASED for the 2016-2017 Season! (4-month minimum). LEASED March-May 2016. CASA MESA GRANDE...High above Grove #16! Professionally decorated Bougainvillea 2 Spa home with fantastic views! East and south views! The outdoor entertaining yard is fenced, has an awning and a private SPA. Centrally located on an interior street, the courtyard is oversized and perfectly landscaped. Inside you'll find a sophisticated yet warm home with great attention to detail. Luxurious master has a king bed, the guest room has a queen bed, the office has a full pull-out. Club or Golf Membership is available - Call for details.]]></Remarks>
 									
 										<Rooms display_name="Rooms"><![CDATA[Den,Dining Room,Family Room,Guest Room,Living Room]]></Rooms>
 									
@@ -2871,17 +3219,17 @@
 									
 										<LotSqFt display_name="Lot Size in Sq. Ft."><![CDATA[10890]]></LotSqFt>
 									
-										<Misc1 display_name="Disclosures"><![CDATA[216000473]]></Misc1>
+										<Misc1 display_name="Disclosures"><![CDATA[CC and Râ??s,Home Warranty Plan,Homeowners Assoc,Planned Unit Develop]]></Misc1>
 									
-										<Misc1 display_name="Lease Terms"><![CDATA[216000473]]></Misc1>
-									
-										<Misc1 display_name="MLNumber"><![CDATA[216000473]]></Misc1>
+										<Misc1 display_name="Lease Terms"><![CDATA[CC and Râ??s,Home Warranty Plan,Homeowners Assoc,Planned Unit Develop]]></Misc1>
 									
 										<Misc2 display_name="Land"/>
 									
 										<Misc2 display_name="Land Fee or Lease"/>
 									
 										<Misc2 display_name="Sale Type"/>
+									
+										<Misc2YN display_name="No Gated Community search"/>
 									
 										<Misc3 display_name="Land Lease Purchase"/>
 									
@@ -3180,17 +3528,17 @@
 									
 										<LotSqFt display_name="Lot Size in Sq. Ft."><![CDATA[8712]]></LotSqFt>
 									
-										<Misc1 display_name="Disclosures"><![CDATA[216000475]]></Misc1>
+										<Misc1 display_name="Disclosures"><![CDATA[CC and Râ??s,Homeowners Assoc,Planned Unit Develop]]></Misc1>
 									
-										<Misc1 display_name="Lease Terms"><![CDATA[216000475]]></Misc1>
-									
-										<Misc1 display_name="MLNumber"><![CDATA[216000475]]></Misc1>
+										<Misc1 display_name="Lease Terms"><![CDATA[CC and Râ??s,Homeowners Assoc,Planned Unit Develop]]></Misc1>
 									
 										<Misc2 display_name="Land"/>
 									
 										<Misc2 display_name="Land Fee or Lease"/>
 									
 										<Misc2 display_name="Sale Type"/>
+									
+										<Misc2YN display_name="No Gated Community search"/>
 									
 										<Misc3 display_name="Land Lease Purchase"/>
 									
@@ -3489,17 +3837,17 @@
 									
 										<LotSqFt display_name="Lot Size in Sq. Ft."><![CDATA[6970]]></LotSqFt>
 									
-										<Misc1 display_name="Disclosures"><![CDATA[216001041]]></Misc1>
+										<Misc1 display_name="Disclosures"><![CDATA[CC and Râ??s,Home Warranty Plan,Homeowners Assoc]]></Misc1>
 									
-										<Misc1 display_name="Lease Terms"><![CDATA[216001041]]></Misc1>
-									
-										<Misc1 display_name="MLNumber"><![CDATA[216001041]]></Misc1>
+										<Misc1 display_name="Lease Terms"><![CDATA[CC and Râ??s,Home Warranty Plan,Homeowners Assoc]]></Misc1>
 									
 										<Misc2 display_name="Land"/>
 									
 										<Misc2 display_name="Land Fee or Lease"/>
 									
 										<Misc2 display_name="Sale Type"/>
+									
+										<Misc2YN display_name="No Gated Community search"/>
 									
 										<Misc3 display_name="Land Lease Purchase"/>
 									
@@ -3551,7 +3899,7 @@
 									
 										<Region display_name="Partial APN search"><![CDATA[632570]]></Region>
 									
-										<Remarks display_name="Remarks"><![CDATA[Taking reservations for the 2017 season. Leased  Nov 15 2015 to April 15 2016. Tenants can use owners sport club membership or upgrade to a golf membership with full privileges for the season. Rare west facing turnkey furnished bougainvillea 1 on the 16th hole of the Grove course. Popular  great room floor plan with an open kitchen featuring  views of the snow capped mountains & golf course. Large patio also two retractable awnings and the master bedroom is located on the fairway side of the property. Enjoy the large gourmet kitchen, separate wet bar. 3 bedrooms 3.5 baths with 2430 square feet of living space. Up-to-date 55 inch TV in great room & each bedroom has a 45 inch TV. Enjoy the Indian Ridge lifestyle at this rare seasonal rental. Master has king bed and the guest bedroom are queens. One bedroom has a desk area for a computer and workspace. Submit for small pets.]]></Remarks>
+										<Remarks display_name="Remarks"><![CDATA[Leased February  13 to May 13 2017. Tenants can use owners sport club membership or upgrade to a golf membership with full privileges for the season. Rare west facing turnkey furnished bougainvillea 1 on the 16th hole of the Grove course. Popular  great room floor plan with an open kitchen featuring  views of the snow capped mountains & golf course. Large patio also two retractable awnings and the master bedroom is located on the fairway side of the property. Enjoy the large gourmet kitchen, separate wet bar. 3 bedrooms 3.5 baths with 2430 square feet of living space. Up-to-date 55 inch TV in great room & each bedroom has a 45 inch TV. Enjoy the Indian Ridge lifestyle at this rare seasonal rental. Master has king bed and the guest bedroom are queens. One bedroom has a desk area for a computer and workspace. Submit for small pets.]]></Remarks>
 									
 										<Rooms display_name="Rooms"><![CDATA[Dining Room,Formal Entry,Great Room,Living Room,Utility Room]]></Rooms>
 									
@@ -3798,17 +4146,17 @@
 									
 										<LotSqFt display_name="Lot Size in Sq. Ft."><![CDATA[7405]]></LotSqFt>
 									
-										<Misc1 display_name="Disclosures"><![CDATA[216001045]]></Misc1>
+										<Misc1 display_name="Disclosures"><![CDATA[CC and Râ??s,Homeowners Assoc]]></Misc1>
 									
-										<Misc1 display_name="Lease Terms"><![CDATA[216001045]]></Misc1>
-									
-										<Misc1 display_name="MLNumber"><![CDATA[216001045]]></Misc1>
+										<Misc1 display_name="Lease Terms"><![CDATA[CC and Râ??s,Homeowners Assoc]]></Misc1>
 									
 										<Misc2 display_name="Land"/>
 									
 										<Misc2 display_name="Land Fee or Lease"/>
 									
 										<Misc2 display_name="Sale Type"/>
+									
+										<Misc2YN display_name="No Gated Community search"/>
 									
 										<Misc3 display_name="Land Lease Purchase"/>
 									
@@ -4107,17 +4455,17 @@
 									
 										<LotSqFt display_name="Lot Size in Sq. Ft."><![CDATA[8712]]></LotSqFt>
 									
-										<Misc1 display_name="Disclosures"><![CDATA[216001051]]></Misc1>
+										<Misc1 display_name="Disclosures"><![CDATA[CC and Râ??s,Homeowners Assoc]]></Misc1>
 									
-										<Misc1 display_name="Lease Terms"><![CDATA[216001051]]></Misc1>
-									
-										<Misc1 display_name="MLNumber"><![CDATA[216001051]]></Misc1>
+										<Misc1 display_name="Lease Terms"><![CDATA[CC and Râ??s,Homeowners Assoc]]></Misc1>
 									
 										<Misc2 display_name="Land"/>
 									
 										<Misc2 display_name="Land Fee or Lease"/>
 									
 										<Misc2 display_name="Sale Type"/>
+									
+										<Misc2YN display_name="No Gated Community search"/>
 									
 										<Misc3 display_name="Land Lease Purchase"/>
 									
@@ -4169,7 +4517,7 @@
 									
 										<Region display_name="Partial APN search"><![CDATA[632720]]></Region>
 									
-										<Remarks display_name="Remarks"><![CDATA[Taking reservations for 2017 season.   Tenants can be approved to use owners sport club membership or upgrade to a golf membership   with full privileges. West facing with south and west views from the 14th hole of the Arroyo course. Open floor plan with comfortable great room floor plan with formal dining, wet bar and double slider doors to the wide golf course patio with electronic awnings. New travertine flooring & 2 new flat screen TVs. Master with king bed, walk-in closets and luxurious master bath is adjacent to the golf course patio. Two guest suites and private baths are on opposite sides of the property for privacy. One with a twin bed with trundle to sleep 2 plus a desk area and the other with a queen bed This is a well appointed home that is immaculate.]]></Remarks>
+										<Remarks display_name="Remarks"><![CDATA[Leased February to May 2017. Tenants can be approved to use owners sport club membership or upgrade to a golf membership   with full privileges. West facing with south and west views from the 14th hole of the Arroyo course. Open floor plan with comfortable great room floor plan with formal dining, wet bar and double slider doors to the wide golf course patio with electronic awnings. New travertine flooring & 2 new flat screen TVs. Master with king bed, walk-in closets and luxurious master bath is adjacent to the golf course patio. Two guest suites and private baths are on opposite sides of the property for privacy. One with a twin bed with trundle to sleep 2 plus a desk area and the other with a queen bed This is a well appointed home that is immaculate.]]></Remarks>
 									
 										<Rooms display_name="Rooms"><![CDATA[Great Room,Living Room,Utility Room]]></Rooms>
 									
@@ -4301,738 +4649,6 @@
 										<thumbphoto25>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/051/216001051_24.jpg?ihfrts=20160108160932765</thumbphoto25>
 									
 							</featured_prop>
-<featured_prop listingnumber="215011606" mlsid="312">
-								
-								
-										<AgedCommunityYN display_name="Is Aged Restricted"/>
-									
-										<AgentCode display_name="Agent Code"><![CDATA[D27163]]></AgentCode>
-									
-										<AgentName display_name="Agent Name"><![CDATA[Stephanie West]]></AgentName>
-									
-										<Amenities display_name="Amenities"/>
-									
-										<APN display_name="APN"><![CDATA[602420021]]></APN>
-									
-										<Bath3Qtr display_name="3/4 Baths"/>
-									
-										<BathCount display_name="Total Bathrooms"><![CDATA[4]]></BathCount>
-									
-										<BathHalf display_name="1/2 Baths"><![CDATA[1]]></BathHalf>
-									
-										<BathQtr display_name="1/4 Baths"/>
-									
-										<Bedrooms display_name="Number of Bedrooms"><![CDATA[4]]></Bedrooms>
-									
-										<blogPolicy display_name="Blog Policy"><![CDATA[1]]></blogPolicy>
-									
-										<City display_name="City"><![CDATA[Indio]]></City>
-									
-										<coAgentCode display_name="co Agent Code"/>
-									
-										<coAgentName display_name="co Agent Name"/>
-									
-										<Community display_name="Community Features"/>
-									
-										<ComplexName display_name="Association Name"/>
-									
-										<ComplexName display_name="Complex Name"/>
-									
-										<coOfficeCode display_name="co Office Code"/>
-									
-										<coOfficeName display_name="co Office Name"/>
-									
-										<County display_name="County"><![CDATA[Riverside]]></County>
-									
-										<DiningRoomDesc display_name="Dining Room Description"><![CDATA[Breakfast Room,Breakfast/Bar]]></DiningRoomDesc>
-									
-										<DiningRoomYN display_name="Has Dining Room"/>
-									
-										<Directions display_name="Directions"><![CDATA[Ave 48 to South on Madison. Montage at Santa Rosa West Gate.  Enter and make first right turn. Home on the left side.]]></Directions>
-									
-										<DocumentsAvailable display_name="Disclosures"/>
-									
-										<EatingArea display_name="Eating Area"/>
-									
-										<ElementarySchool display_name="Elementary School"/>
-									
-										<FamilyRoomYN display_name="Has Family Room"/>
-									
-										<Features display_name="Features"/>
-									
-										<FeesInclude display_name="Fees Include"><![CDATA[Other]]></FeesInclude>
-									
-										<FireplaceDesc display_name="Fireplace Description"><![CDATA[Other]]></FireplaceDesc>
-									
-										<FireplaceDesc display_name="Fireplace Features"><![CDATA[Other]]></FireplaceDesc>
-									
-										<FireplaceYN display_name="Has Fireplace"><![CDATA[1]]></FireplaceYN>
-									
-										<ForeclosureYN display_name="Is a Foreclosure"/>
-									
-										<FullBaths display_name="Number of Full Bathrooms"><![CDATA[3]]></FullBaths>
-									
-										<FullPartialAddress display_name="Full/Partial Address"><![CDATA[F]]></FullPartialAddress>
-									
-										<garageDesc display_name="Garage Description"><![CDATA[Attached]]></garageDesc>
-									
-										<GarageSpaces display_name="Garage Spaces"><![CDATA[3]]></GarageSpaces>
-									
-										<GarYN display_name="Has Garage"><![CDATA[1]]></GarYN>
-									
-										<GeographicLike display_name="Subdivision/TractCode like search"><![CDATA[Montage at Santa Rosa]]></GeographicLike>
-									
-										<GolfCourseYN display_name="Has Golf Course"/>
-									
-										<HalfBaths display_name="Number of Half Bathrooms"><![CDATA[1]]></HalfBaths>
-									
-										<HeatingFuel display_name="Fireplace Fuel"><![CDATA[Gas]]></HeatingFuel>
-									
-										<HighSchool display_name="High School"/>
-									
-										<HOAFee display_name="HOA Fee"><![CDATA[0.0000]]></HOAFee>
-									
-										<HorsePropertyYN display_name="Is a Horse Property"/>
-									
-										<JrHighSchool display_name="Jr. High School"/>
-									
-										<Latitude display_name="Latitude"><![CDATA[33.695026]]></Latitude>
-									
-										<ListingNumber display_name="Listing Number"><![CDATA[215011606]]></ListingNumber>
-									
-										<ListingStatusDisplay display_name="ListingStatusDisplay"/>
-									
-										<ListPrice display_name="List Price"><![CDATA[7000.000000000000]]></ListPrice>
-									
-										<Longitude display_name="Longitude"><![CDATA[-116.252281]]></Longitude>
-									
-										<LotAcres display_name="Lot Size in Acres"><![CDATA[0.360000000000]]></LotAcres>
-									
-										<LotDesc display_name="Lot Location"/>
-									
-										<LotDescription display_name="Lot Description"/>
-									
-										<LotDescription display_name="Lot Location"/>
-									
-										<LotSqFt display_name="Lot Size in Sq. Ft."><![CDATA[15682]]></LotSqFt>
-									
-										<Misc1 display_name="Disclosures"><![CDATA[215011606]]></Misc1>
-									
-										<Misc1 display_name="Lease Terms"><![CDATA[215011606]]></Misc1>
-									
-										<Misc1 display_name="MLNumber"><![CDATA[215011606]]></Misc1>
-									
-										<Misc2 display_name="Land"/>
-									
-										<Misc2 display_name="Land Fee or Lease"/>
-									
-										<Misc2 display_name="Sale Type"/>
-									
-										<Misc3 display_name="Land Lease Purchase"/>
-									
-										<Misc3 display_name="Sale Type"/>
-									
-										<Misc4 display_name="Sale Type"/>
-									
-										<Misc4YN display_name="Active Listings Only"/>
-									
-										<MiscInt1 display_name="Max Year Built search"/>
-									
-										<MiscInt3 display_name="Probate Property search"/>
-									
-										<MiscInt5 display_name="Is a HUD/Gov. Owned search"/>
-									
-										<MiscInt6 display_name="Gated Community"/>
-									
-										<MiscString2 display_name="Terms"/>
-									
-										<MiscString3 display_name="Land Fee/Lease search"/>
-									
-										<MiscString4 display_name="View search"/>
-									
-										<MLSArea display_name="MLS Area"><![CDATA[Indio South of 111]]></MLSArea>
-									
-										<MLSPhotoCount display_name="MLSPhotoCount"><![CDATA[76]]></MLSPhotoCount>
-									
-										<Neighborhood display_name="complex name search"/>
-									
-										<OfficeCode display_name="Office Code"><![CDATA[D8888]]></OfficeCode>
-									
-										<OfficeName display_name="Office Name"><![CDATA[HK Lane/Christie's International]]></OfficeName>
-									
-										<OneStoryYN display_name="Is One Story"/>
-									
-										<ParkAmenities display_name="Park Amenities"/>
-									
-										<PoolDesc display_name="Pool Description"/>
-									
-										<PoolYN display_name="Has a Pool"><![CDATA[1]]></PoolYN>
-									
-										<PropertyLocation display_name="County adv. search"><![CDATA[Riverside]]></PropertyLocation>
-									
-										<PropertyLocation display_name="Property Location"><![CDATA[Riverside]]></PropertyLocation>
-									
-										<PropertySubType display_name="Property SubType"><![CDATA[Single Family Detach]]></PropertySubType>
-									
-										<PropertyType display_name="Property Type"><![CDATA[RNT]]></PropertyType>
-									
-										<Region display_name="Partial APN search"><![CDATA[602420]]></Region>
-									
-										<Remarks display_name="Remarks"><![CDATA[Only available short term and music festivals. Beautiful Montage at Santa Rosa Home available for Coachella and Stagecoach rentals.  Walk or bike to the Polo fields.  4 bedrooms, 3.5 Baths.  Beautiful sparkling pool and grassy backyard is the perfect setting for enjoying the music festivals. NOT OFFERED LONG TERM.]]></Remarks>
-									
-										<Rooms display_name="Rooms"/>
-									
-										<SchoolDistrict display_name="School District"/>
-									
-										<searchPolicy display_name="Search Policy"><![CDATA[1]]></searchPolicy>
-									
-										<ShortSaleYN display_name="Is Short Sale"/>
-									
-										<SoldAgentCode display_name="SoldAgentCode"/>
-									
-										<SoldAgentName display_name="SoldAgentName"/>
-									
-										<SoldDate display_name="SoldDate"/>
-									
-										<SoldOfficeCode display_name="SoldOfficeCode"/>
-									
-										<SoldOfficeName display_name="SoldOfficeName"/>
-									
-										<SoldPrice display_name="SoldPrice"/>
-									
-										<Spa display_name="Spa"/>
-									
-										<SquareFeet display_name="Approximate Size (Sq. Ft.)"><![CDATA[3308]]></SquareFeet>
-									
-										<State display_name="State"><![CDATA[CA ]]></State>
-									
-										<Status display_name="Status"><![CDATA[Active]]></Status>
-									
-										<Stories display_name="Stories"/>
-									
-										<StreetName display_name="Street Name"><![CDATA[Stillwater Street]]></StreetName>
-									
-										<StreetNumber display_name="Street Number"><![CDATA[48685]]></StreetNumber>
-									
-										<Style display_name="Style"/>
-									
-										<StyleLike display_name="Style"/>
-									
-										<Subdivision display_name="Subdivision"><![CDATA[Montage at Santa Rosa]]></Subdivision>
-									
-										<UnitNumber display_name="Unit Number"/>
-									
-										<ViewDescription display_name="View Description"><![CDATA[Mountain View]]></ViewDescription>
-									
-										<ViewYN display_name="Has View"><![CDATA[1]]></ViewYN>
-									
-										<VirtualTourLink display_name="Virtual Tour Link"/>
-									
-										<YearBuilt display_name="Year Built"><![CDATA[2004]]></YearBuilt>
-									
-										<Zip display_name="Zip"><![CDATA[92201]]></Zip>
-									
-								<ihfphotourl>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606.jpg?ihfrts=20160228160809926</ihfphotourl>
-								
-										<photo01>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606.jpg?ihfrts=20160228160809926</photo01>
-										<thumbphoto01>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606.jpg?ihfrts=20160228160809926</thumbphoto01>
-									
-										<photo02>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_01.jpg?ihfrts=20160228160809926</photo02>
-										<thumbphoto02>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_01.jpg?ihfrts=20160228160809926</thumbphoto02>
-									
-										<photo03>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_02.jpg?ihfrts=20160228160809926</photo03>
-										<thumbphoto03>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_02.jpg?ihfrts=20160228160809926</thumbphoto03>
-									
-										<photo04>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_03.jpg?ihfrts=20160228160809926</photo04>
-										<thumbphoto04>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_03.jpg?ihfrts=20160228160809926</thumbphoto04>
-									
-										<photo05>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_04.jpg?ihfrts=20160228160809926</photo05>
-										<thumbphoto05>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_04.jpg?ihfrts=20160228160809926</thumbphoto05>
-									
-										<photo06>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_05.jpg?ihfrts=20160228160809926</photo06>
-										<thumbphoto06>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_05.jpg?ihfrts=20160228160809926</thumbphoto06>
-									
-										<photo07>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_06.jpg?ihfrts=20160228160809926</photo07>
-										<thumbphoto07>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_06.jpg?ihfrts=20160228160809926</thumbphoto07>
-									
-										<photo08>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_07.jpg?ihfrts=20160228160809926</photo08>
-										<thumbphoto08>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_07.jpg?ihfrts=20160228160809926</thumbphoto08>
-									
-										<photo09>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_08.jpg?ihfrts=20160228160809926</photo09>
-										<thumbphoto09>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_08.jpg?ihfrts=20160228160809926</thumbphoto09>
-									
-										<photo10>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_09.jpg?ihfrts=20160228160809926</photo10>
-										<thumbphoto10>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_09.jpg?ihfrts=20160228160809926</thumbphoto10>
-									
-										<photo11>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_10.jpg?ihfrts=20160228160809926</photo11>
-										<thumbphoto11>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_10.jpg?ihfrts=20160228160809926</thumbphoto11>
-									
-										<photo12>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_11.jpg?ihfrts=20160228160809926</photo12>
-										<thumbphoto12>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_11.jpg?ihfrts=20160228160809926</thumbphoto12>
-									
-										<photo13>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_12.jpg?ihfrts=20160228160809926</photo13>
-										<thumbphoto13>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_12.jpg?ihfrts=20160228160809926</thumbphoto13>
-									
-										<photo14>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_13.jpg?ihfrts=20160228160809926</photo14>
-										<thumbphoto14>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_13.jpg?ihfrts=20160228160809926</thumbphoto14>
-									
-										<photo15>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_14.jpg?ihfrts=20160228160809926</photo15>
-										<thumbphoto15>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_14.jpg?ihfrts=20160228160809926</thumbphoto15>
-									
-										<photo16>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_15.jpg?ihfrts=20160228160809926</photo16>
-										<thumbphoto16>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_15.jpg?ihfrts=20160228160809926</thumbphoto16>
-									
-										<photo17>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_16.jpg?ihfrts=20160228160809926</photo17>
-										<thumbphoto17>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_16.jpg?ihfrts=20160228160809926</thumbphoto17>
-									
-										<photo18>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_17.jpg?ihfrts=20160228160809926</photo18>
-										<thumbphoto18>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_17.jpg?ihfrts=20160228160809926</thumbphoto18>
-									
-										<photo19>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_18.jpg?ihfrts=20160228160809926</photo19>
-										<thumbphoto19>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_18.jpg?ihfrts=20160228160809926</thumbphoto19>
-									
-										<photo20>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_19.jpg?ihfrts=20160228160809926</photo20>
-										<thumbphoto20>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_19.jpg?ihfrts=20160228160809926</thumbphoto20>
-									
-										<photo21>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_20.jpg?ihfrts=20160228160809926</photo21>
-										<thumbphoto21>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_20.jpg?ihfrts=20160228160809926</thumbphoto21>
-									
-										<photo22>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_21.jpg?ihfrts=20160228160809926</photo22>
-										<thumbphoto22>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_21.jpg?ihfrts=20160228160809926</thumbphoto22>
-									
-										<photo23>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_22.jpg?ihfrts=20160228160809926</photo23>
-										<thumbphoto23>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_22.jpg?ihfrts=20160228160809926</thumbphoto23>
-									
-										<photo24>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_23.jpg?ihfrts=20160228160809926</photo24>
-										<thumbphoto24>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_23.jpg?ihfrts=20160228160809926</thumbphoto24>
-									
-										<photo25>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_24.jpg?ihfrts=20160228160809926</photo25>
-										<thumbphoto25>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_24.jpg?ihfrts=20160228160809926</thumbphoto25>
-									
-										<photo26>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_25.jpg?ihfrts=20160228160809926</photo26>
-										<thumbphoto26>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_25.jpg?ihfrts=20160228160809926</thumbphoto26>
-									
-										<photo27>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_26.jpg?ihfrts=20160228160809926</photo27>
-										<thumbphoto27>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_26.jpg?ihfrts=20160228160809926</thumbphoto27>
-									
-										<photo28>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_27.jpg?ihfrts=20160228160809926</photo28>
-										<thumbphoto28>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_27.jpg?ihfrts=20160228160809926</thumbphoto28>
-									
-										<photo29>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_28.jpg?ihfrts=20160228160809926</photo29>
-										<thumbphoto29>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_28.jpg?ihfrts=20160228160809926</thumbphoto29>
-									
-										<photo30>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_29.jpg?ihfrts=20160228160809926</photo30>
-										<thumbphoto30>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_29.jpg?ihfrts=20160228160809926</thumbphoto30>
-									
-										<photo31>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_30.jpg?ihfrts=20160228160809926</photo31>
-										<thumbphoto31>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_30.jpg?ihfrts=20160228160809926</thumbphoto31>
-									
-										<photo32>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_31.jpg?ihfrts=20160228160809926</photo32>
-										<thumbphoto32>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_31.jpg?ihfrts=20160228160809926</thumbphoto32>
-									
-										<photo33>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_32.jpg?ihfrts=20160228160809926</photo33>
-										<thumbphoto33>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_32.jpg?ihfrts=20160228160809926</thumbphoto33>
-									
-										<photo34>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_33.jpg?ihfrts=20160228160809926</photo34>
-										<thumbphoto34>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_33.jpg?ihfrts=20160228160809926</thumbphoto34>
-									
-										<photo35>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_34.jpg?ihfrts=20160228160809926</photo35>
-										<thumbphoto35>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_34.jpg?ihfrts=20160228160809926</thumbphoto35>
-									
-										<photo36>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_35.jpg?ihfrts=20160228160809926</photo36>
-										<thumbphoto36>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_35.jpg?ihfrts=20160228160809926</thumbphoto36>
-									
-										<photo37>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_36.jpg?ihfrts=20160228160809926</photo37>
-										<thumbphoto37>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_36.jpg?ihfrts=20160228160809926</thumbphoto37>
-									
-										<photo38>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_37.jpg?ihfrts=20160228160809926</photo38>
-										<thumbphoto38>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_37.jpg?ihfrts=20160228160809926</thumbphoto38>
-									
-										<photo39>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_38.jpg?ihfrts=20160228160809926</photo39>
-										<thumbphoto39>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_38.jpg?ihfrts=20160228160809926</thumbphoto39>
-									
-										<photo40>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_39.jpg?ihfrts=20160228160809926</photo40>
-										<thumbphoto40>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_39.jpg?ihfrts=20160228160809926</thumbphoto40>
-									
-										<photo41>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_40.jpg?ihfrts=20160228160809926</photo41>
-										<thumbphoto41>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_40.jpg?ihfrts=20160228160809926</thumbphoto41>
-									
-										<photo42>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_41.jpg?ihfrts=20160228160809926</photo42>
-										<thumbphoto42>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_41.jpg?ihfrts=20160228160809926</thumbphoto42>
-									
-										<photo43>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_42.jpg?ihfrts=20160228160809926</photo43>
-										<thumbphoto43>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_42.jpg?ihfrts=20160228160809926</thumbphoto43>
-									
-										<photo44>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_43.jpg?ihfrts=20160228160809926</photo44>
-										<thumbphoto44>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_43.jpg?ihfrts=20160228160809926</thumbphoto44>
-									
-										<photo45>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_44.jpg?ihfrts=20160228160809926</photo45>
-										<thumbphoto45>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_44.jpg?ihfrts=20160228160809926</thumbphoto45>
-									
-										<photo46>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_45.jpg?ihfrts=20160228160809926</photo46>
-										<thumbphoto46>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_45.jpg?ihfrts=20160228160809926</thumbphoto46>
-									
-										<photo47>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_46.jpg?ihfrts=20160228160809926</photo47>
-										<thumbphoto47>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_46.jpg?ihfrts=20160228160809926</thumbphoto47>
-									
-										<photo48>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_47.jpg?ihfrts=20160228160809926</photo48>
-										<thumbphoto48>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_47.jpg?ihfrts=20160228160809926</thumbphoto48>
-									
-										<photo49>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_48.jpg?ihfrts=20160228160809926</photo49>
-										<thumbphoto49>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_48.jpg?ihfrts=20160228160809926</thumbphoto49>
-									
-										<photo50>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/006/215011606_49.jpg?ihfrts=20160228160809926</photo50>
-										<thumbphoto50>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/006/215011606_49.jpg?ihfrts=20160228160809926</thumbphoto50>
-									
-							</featured_prop>
-<featured_prop listingnumber="215022660" mlsid="312">
-								
-								
-										<AgedCommunityYN display_name="Is Aged Restricted"/>
-									
-										<AgentCode display_name="Agent Code"><![CDATA[D20161]]></AgentCode>
-									
-										<AgentName display_name="Agent Name"><![CDATA[Joan Castro]]></AgentName>
-									
-										<Amenities display_name="Amenities"/>
-									
-										<APN display_name="APN"><![CDATA[609580008]]></APN>
-									
-										<Bath3Qtr display_name="3/4 Baths"/>
-									
-										<BathCount display_name="Total Bathrooms"><![CDATA[4]]></BathCount>
-									
-										<BathHalf display_name="1/2 Baths"/>
-									
-										<BathQtr display_name="1/4 Baths"/>
-									
-										<Bedrooms display_name="Number of Bedrooms"><![CDATA[5]]></Bedrooms>
-									
-										<blogPolicy display_name="Blog Policy"><![CDATA[1]]></blogPolicy>
-									
-										<City display_name="City"><![CDATA[La Quinta]]></City>
-									
-										<coAgentCode display_name="co Agent Code"/>
-									
-										<coAgentName display_name="co Agent Name"/>
-									
-										<Community display_name="Community Features"><![CDATA[Community Mailbox]]></Community>
-									
-										<ComplexName display_name="Association Name"/>
-									
-										<ComplexName display_name="Complex Name"/>
-									
-										<coOfficeCode display_name="co Office Code"/>
-									
-										<coOfficeName display_name="co Office Name"/>
-									
-										<County display_name="County"><![CDATA[Riverside]]></County>
-									
-										<DiningRoomDesc display_name="Dining Room Description"><![CDATA[Breakfast,Breakfast Nook,Breakfast Room,Breakfast/Bar,Dining Area,Eat In Kitchen,Kitchen Island]]></DiningRoomDesc>
-									
-										<DiningRoomYN display_name="Has Dining Room"/>
-									
-										<Directions display_name="Directions"><![CDATA[Enter at front gate on Fred Waring. Turn  right on Parkway Esplande S, Left on Bordeaux, Right on Calle Espada, right on Corte Nuevo. House at end of cul-de-sac.]]></Directions>
-									
-										<DocumentsAvailable display_name="Disclosures"/>
-									
-										<EatingArea display_name="Eating Area"/>
-									
-										<ElementarySchool display_name="Elementary School"/>
-									
-										<FamilyRoomYN display_name="Has Family Room"/>
-									
-										<Features display_name="Features"><![CDATA[Barbecue Private,Premium Lot]]></Features>
-									
-										<FeesInclude display_name="Fees Include"/>
-									
-										<FireplaceDesc display_name="Fireplace Description"><![CDATA[Electric,Glass Doors]]></FireplaceDesc>
-									
-										<FireplaceDesc display_name="Fireplace Features"><![CDATA[Electric,Glass Doors]]></FireplaceDesc>
-									
-										<FireplaceYN display_name="Has Fireplace"><![CDATA[1]]></FireplaceYN>
-									
-										<ForeclosureYN display_name="Is a Foreclosure"/>
-									
-										<FullBaths display_name="Number of Full Bathrooms"><![CDATA[4]]></FullBaths>
-									
-										<FullPartialAddress display_name="Full/Partial Address"><![CDATA[F]]></FullPartialAddress>
-									
-										<garageDesc display_name="Garage Description"><![CDATA[Attached]]></garageDesc>
-									
-										<GarageSpaces display_name="Garage Spaces"><![CDATA[2]]></GarageSpaces>
-									
-										<GarYN display_name="Has Garage"><![CDATA[1]]></GarYN>
-									
-										<GeographicLike display_name="Subdivision/TractCode like search"><![CDATA[Esplanade]]></GeographicLike>
-									
-										<GolfCourseYN display_name="Has Golf Course"/>
-									
-										<HalfBaths display_name="Number of Half Bathrooms"><![CDATA[0]]></HalfBaths>
-									
-										<HeatingFuel display_name="Fireplace Fuel"><![CDATA[Electric]]></HeatingFuel>
-									
-										<HighSchool display_name="High School"/>
-									
-										<HOAFee display_name="HOA Fee"><![CDATA[165.0000]]></HOAFee>
-									
-										<HorsePropertyYN display_name="Is a Horse Property"/>
-									
-										<JrHighSchool display_name="Jr. High School"/>
-									
-										<Latitude display_name="Latitude"><![CDATA[33.731716]]></Latitude>
-									
-										<ListingNumber display_name="Listing Number"><![CDATA[215022660]]></ListingNumber>
-									
-										<ListingStatusDisplay display_name="ListingStatusDisplay"/>
-									
-										<ListPrice display_name="List Price"><![CDATA[7000.000000000000]]></ListPrice>
-									
-										<Longitude display_name="Longitude"><![CDATA[-116.274178]]></Longitude>
-									
-										<LotAcres display_name="Lot Size in Acres"><![CDATA[0.570000000000]]></LotAcres>
-									
-										<LotDesc display_name="Lot Location"><![CDATA[Cul-De-Sac]]></LotDesc>
-									
-										<LotDescription display_name="Lot Description"/>
-									
-										<LotDescription display_name="Lot Location"/>
-									
-										<LotSqFt display_name="Lot Size in Sq. Ft."><![CDATA[24829]]></LotSqFt>
-									
-										<Misc1 display_name="Disclosures"><![CDATA[215022660]]></Misc1>
-									
-										<Misc1 display_name="Lease Terms"><![CDATA[215022660]]></Misc1>
-									
-										<Misc1 display_name="MLNumber"><![CDATA[215022660]]></Misc1>
-									
-										<Misc2 display_name="Land"/>
-									
-										<Misc2 display_name="Land Fee or Lease"/>
-									
-										<Misc2 display_name="Sale Type"/>
-									
-										<Misc3 display_name="Land Lease Purchase"/>
-									
-										<Misc3 display_name="Sale Type"/>
-									
-										<Misc4 display_name="Sale Type"/>
-									
-										<Misc4YN display_name="Active Listings Only"/>
-									
-										<MiscInt1 display_name="Max Year Built search"/>
-									
-										<MiscInt3 display_name="Probate Property search"/>
-									
-										<MiscInt5 display_name="Is a HUD/Gov. Owned search"/>
-									
-										<MiscInt6 display_name="Gated Community"/>
-									
-										<MiscString2 display_name="Terms"/>
-									
-										<MiscString3 display_name="Land Fee/Lease search"/>
-									
-										<MiscString4 display_name="View search"/>
-									
-										<MLSArea display_name="MLS Area"><![CDATA[La Quinta No of HWY]]></MLSArea>
-									
-										<MLSPhotoCount display_name="MLSPhotoCount"><![CDATA[38]]></MLSPhotoCount>
-									
-										<Neighborhood display_name="complex name search"/>
-									
-										<OfficeCode display_name="Office Code"><![CDATA[D8888]]></OfficeCode>
-									
-										<OfficeName display_name="Office Name"><![CDATA[HK Lane/Christie's International]]></OfficeName>
-									
-										<OneStoryYN display_name="Is One Story"/>
-									
-										<ParkAmenities display_name="Park Amenities"/>
-									
-										<PoolDesc display_name="Pool Description"><![CDATA[Pool-Heated/Gas,Pool-Exercise,Pool-Salt/Saline]]></PoolDesc>
-									
-										<PoolYN display_name="Has a Pool"><![CDATA[1]]></PoolYN>
-									
-										<PropertyLocation display_name="County adv. search"><![CDATA[Riverside]]></PropertyLocation>
-									
-										<PropertyLocation display_name="Property Location"><![CDATA[Riverside]]></PropertyLocation>
-									
-										<PropertySubType display_name="Property SubType"><![CDATA[Single Family Detach]]></PropertySubType>
-									
-										<PropertyType display_name="Property Type"><![CDATA[RNT]]></PropertyType>
-									
-										<Region display_name="Partial APN search"><![CDATA[609580]]></Region>
-									
-										<Remarks display_name="Remarks"><![CDATA[Available April for Coachella fests. Live the season in this newly designed lush landscaped south west lot with new private salt water 40 foot pool/9 foot tanning ledge/spa for 8/water feature/huge BBQ & rectangle fire pit. Large 5 bedroom & 4 bath home which could accommodate  10 guests with 2 Kings,2 Queens & new queen sofa bed. 7 flat screen TV including  TVs in each bedroom, great room and kitchen. The 3356 square foot home features an open flowing floor plan with large gourmet kitchen with eating area, new stainless 2 drawer dishwasher, Wolf cooktop & hood plus huge  stainless refrigerator. Enjoy  the  dining room, cozy fireplace plus 5 sets of french doors leading to this amazing updated yard with complete privacy including a walking/biking path. Book early so you don't miss out on this fantastic setting. Call for availability during holidays & prices can vary depending on dates and number of occupants.]]></Remarks>
-									
-										<Rooms display_name="Rooms"><![CDATA[Dining Room,Entry,Formal Entry,Great Room,Guest Room,Living Room,Utility Room,Walk In Pantry]]></Rooms>
-									
-										<SchoolDistrict display_name="School District"><![CDATA[Desert Sands USD]]></SchoolDistrict>
-									
-										<searchPolicy display_name="Search Policy"><![CDATA[1]]></searchPolicy>
-									
-										<ShortSaleYN display_name="Is Short Sale"/>
-									
-										<SoldAgentCode display_name="SoldAgentCode"/>
-									
-										<SoldAgentName display_name="SoldAgentName"/>
-									
-										<SoldDate display_name="SoldDate"/>
-									
-										<SoldOfficeCode display_name="SoldOfficeCode"/>
-									
-										<SoldOfficeName display_name="SoldOfficeName"/>
-									
-										<SoldPrice display_name="SoldPrice"/>
-									
-										<Spa display_name="Spa"/>
-									
-										<SquareFeet display_name="Approximate Size (Sq. Ft.)"><![CDATA[3356]]></SquareFeet>
-									
-										<State display_name="State"><![CDATA[CA ]]></State>
-									
-										<Status display_name="Status"><![CDATA[Active]]></Status>
-									
-										<Stories display_name="Stories"/>
-									
-										<StreetName display_name="Street Name"><![CDATA[Corte Nuevo]]></StreetName>
-									
-										<StreetNumber display_name="Street Number"><![CDATA[79705]]></StreetNumber>
-									
-										<Style display_name="Style"/>
-									
-										<StyleLike display_name="Style"><![CDATA[Mediterranean]]></StyleLike>
-									
-										<Subdivision display_name="Subdivision"><![CDATA[Esplanade]]></Subdivision>
-									
-										<UnitNumber display_name="Unit Number"/>
-									
-										<ViewDescription display_name="View Description"><![CDATA[Panoramic View,Pool View]]></ViewDescription>
-									
-										<ViewYN display_name="Has View"><![CDATA[1]]></ViewYN>
-									
-										<VirtualTourLink display_name="Virtual Tour Link"><![CDATA[http://pfretour.com/mls/46329]]></VirtualTourLink>
-									
-										<YearBuilt display_name="Year Built"><![CDATA[2004]]></YearBuilt>
-									
-										<Zip display_name="Zip"><![CDATA[92253]]></Zip>
-									
-								<ihfphotourl>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660.jpg?ihfrts=20151029160821667</ihfphotourl>
-								
-										<photo01>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660.jpg?ihfrts=20151029160821667</photo01>
-										<thumbphoto01>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660.jpg?ihfrts=20151029160821667</thumbphoto01>
-									
-										<photo02>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_01.jpg?ihfrts=20151029160821667</photo02>
-										<thumbphoto02>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_01.jpg?ihfrts=20151029160821667</thumbphoto02>
-									
-										<photo03>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_02.jpg?ihfrts=20151029160821667</photo03>
-										<thumbphoto03>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_02.jpg?ihfrts=20151029160821667</thumbphoto03>
-									
-										<photo04>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_03.jpg?ihfrts=20151029160821667</photo04>
-										<thumbphoto04>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_03.jpg?ihfrts=20151029160821667</thumbphoto04>
-									
-										<photo05>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_04.jpg?ihfrts=20151029160821667</photo05>
-										<thumbphoto05>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_04.jpg?ihfrts=20151029160821667</thumbphoto05>
-									
-										<photo06>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_05.jpg?ihfrts=20151029160821667</photo06>
-										<thumbphoto06>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_05.jpg?ihfrts=20151029160821667</thumbphoto06>
-									
-										<photo07>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_06.jpg?ihfrts=20151029160821667</photo07>
-										<thumbphoto07>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_06.jpg?ihfrts=20151029160821667</thumbphoto07>
-									
-										<photo08>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_07.jpg?ihfrts=20151029160821667</photo08>
-										<thumbphoto08>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_07.jpg?ihfrts=20151029160821667</thumbphoto08>
-									
-										<photo09>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_08.jpg?ihfrts=20151029160821667</photo09>
-										<thumbphoto09>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_08.jpg?ihfrts=20151029160821667</thumbphoto09>
-									
-										<photo10>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_09.jpg?ihfrts=20151029160821667</photo10>
-										<thumbphoto10>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_09.jpg?ihfrts=20151029160821667</thumbphoto10>
-									
-										<photo11>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_10.jpg?ihfrts=20151029160821667</photo11>
-										<thumbphoto11>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_10.jpg?ihfrts=20151029160821667</thumbphoto11>
-									
-										<photo12>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_11.jpg?ihfrts=20151029160821667</photo12>
-										<thumbphoto12>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_11.jpg?ihfrts=20151029160821667</thumbphoto12>
-									
-										<photo13>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_12.jpg?ihfrts=20151029160821667</photo13>
-										<thumbphoto13>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_12.jpg?ihfrts=20151029160821667</thumbphoto13>
-									
-										<photo14>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_13.jpg?ihfrts=20151029160821667</photo14>
-										<thumbphoto14>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_13.jpg?ihfrts=20151029160821667</thumbphoto14>
-									
-										<photo15>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_14.jpg?ihfrts=20151029160821667</photo15>
-										<thumbphoto15>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_14.jpg?ihfrts=20151029160821667</thumbphoto15>
-									
-										<photo16>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_15.jpg?ihfrts=20151029160821667</photo16>
-										<thumbphoto16>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_15.jpg?ihfrts=20151029160821667</thumbphoto16>
-									
-										<photo17>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_16.jpg?ihfrts=20151029160821667</photo17>
-										<thumbphoto17>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_16.jpg?ihfrts=20151029160821667</thumbphoto17>
-									
-										<photo18>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_17.jpg?ihfrts=20151029160821667</photo18>
-										<thumbphoto18>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_17.jpg?ihfrts=20151029160821667</thumbphoto18>
-									
-										<photo19>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_18.jpg?ihfrts=20151029160821667</photo19>
-										<thumbphoto19>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_18.jpg?ihfrts=20151029160821667</thumbphoto19>
-									
-										<photo20>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_19.jpg?ihfrts=20151029160821667</photo20>
-										<thumbphoto20>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_19.jpg?ihfrts=20151029160821667</thumbphoto20>
-									
-										<photo21>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_20.jpg?ihfrts=20151029160821667</photo21>
-										<thumbphoto21>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_20.jpg?ihfrts=20151029160821667</thumbphoto21>
-									
-										<photo22>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_21.jpg?ihfrts=20151029160821667</photo22>
-										<thumbphoto22>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_21.jpg?ihfrts=20151029160821667</thumbphoto22>
-									
-										<photo23>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_22.jpg?ihfrts=20151029160821667</photo23>
-										<thumbphoto23>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_22.jpg?ihfrts=20151029160821667</thumbphoto23>
-									
-										<photo24>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_23.jpg?ihfrts=20151029160821667</photo24>
-										<thumbphoto24>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_23.jpg?ihfrts=20151029160821667</thumbphoto24>
-									
-										<photo25>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_24.jpg?ihfrts=20151029160821667</photo25>
-										<thumbphoto25>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_24.jpg?ihfrts=20151029160821667</thumbphoto25>
-									
-										<photo26>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_25.jpg?ihfrts=20151029160821667</photo26>
-										<thumbphoto26>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_25.jpg?ihfrts=20151029160821667</thumbphoto26>
-									
-										<photo27>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_26.jpg?ihfrts=20151029160821667</photo27>
-										<thumbphoto27>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_26.jpg?ihfrts=20151029160821667</thumbphoto27>
-									
-										<photo28>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_27.jpg?ihfrts=20151029160821667</photo28>
-										<thumbphoto28>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_27.jpg?ihfrts=20151029160821667</thumbphoto28>
-									
-										<photo29>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_28.jpg?ihfrts=20151029160821667</photo29>
-										<thumbphoto29>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_28.jpg?ihfrts=20151029160821667</thumbphoto29>
-									
-										<photo30>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_29.jpg?ihfrts=20151029160821667</photo30>
-										<thumbphoto30>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_29.jpg?ihfrts=20151029160821667</thumbphoto30>
-									
-										<photo31>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_30.jpg?ihfrts=20151029160821667</photo31>
-										<thumbphoto31>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_30.jpg?ihfrts=20151029160821667</thumbphoto31>
-									
-										<photo32>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_31.jpg?ihfrts=20151029160821667</photo32>
-										<thumbphoto32>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_31.jpg?ihfrts=20151029160821667</thumbphoto32>
-									
-										<photo33>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_32.jpg?ihfrts=20151029160821667</photo33>
-										<thumbphoto33>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_32.jpg?ihfrts=20151029160821667</thumbphoto33>
-									
-										<photo34>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_33.jpg?ihfrts=20151029160821667</photo34>
-										<thumbphoto34>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_33.jpg?ihfrts=20151029160821667</thumbphoto34>
-									
-										<photo35>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_34.jpg?ihfrts=20151029160821667</photo35>
-										<thumbphoto35>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_34.jpg?ihfrts=20151029160821667</thumbphoto35>
-									
-										<photo36>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_35.jpg?ihfrts=20151029160821667</photo36>
-										<thumbphoto36>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_35.jpg?ihfrts=20151029160821667</thumbphoto36>
-									
-										<photo37>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_36.jpg?ihfrts=20151029160821667</photo37>
-										<thumbphoto37>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_36.jpg?ihfrts=20151029160821667</thumbphoto37>
-									
-										<photo38>http://mediall.rapmls.com/desertareamls/listingpics/bigphoto/060/215022660_37.jpg?ihfrts=20151029160821667</photo38>
-										<thumbphoto38>http://mediall.rapmls.com/desertareamls/listingpics/tmbphoto/060/215022660_37.jpg?ihfrts=20151029160821667</thumbphoto38>
-									
-							</featured_prop>
 <featured_prop listingnumber="215024420" mlsid="312">
 								
 								
@@ -5148,17 +4764,17 @@
 									
 										<LotSqFt display_name="Lot Size in Sq. Ft."><![CDATA[10454]]></LotSqFt>
 									
-										<Misc1 display_name="Disclosures"><![CDATA[215024420]]></Misc1>
+										<Misc1 display_name="Disclosures"/>
 									
-										<Misc1 display_name="Lease Terms"><![CDATA[215024420]]></Misc1>
-									
-										<Misc1 display_name="MLNumber"><![CDATA[215024420]]></Misc1>
+										<Misc1 display_name="Lease Terms"/>
 									
 										<Misc2 display_name="Land"/>
 									
 										<Misc2 display_name="Land Fee or Lease"/>
 									
 										<Misc2 display_name="Sale Type"/>
+									
+										<Misc2YN display_name="No Gated Community search"/>
 									
 										<Misc3 display_name="Land Lease Purchase"/>
 									
@@ -5457,17 +5073,17 @@
 									
 										<LotSqFt display_name="Lot Size in Sq. Ft."><![CDATA[10019]]></LotSqFt>
 									
-										<Misc1 display_name="Disclosures"><![CDATA[21461029]]></Misc1>
+										<Misc1 display_name="Disclosures"/>
 									
-										<Misc1 display_name="Lease Terms"><![CDATA[21461029]]></Misc1>
-									
-										<Misc1 display_name="MLNumber"><![CDATA[21461029]]></Misc1>
+										<Misc1 display_name="Lease Terms"/>
 									
 										<Misc2 display_name="Land"/>
 									
 										<Misc2 display_name="Land Fee or Lease"/>
 									
 										<Misc2 display_name="Sale Type"/>
+									
+										<Misc2YN display_name="No Gated Community search"/>
 									
 										<Misc3 display_name="Land Lease Purchase"/>
 									
@@ -5519,7 +5135,7 @@
 									
 										<Region display_name="Partial APN search"><![CDATA[628163]]></Region>
 									
-										<Remarks display_name="Remarks"><![CDATA[AVAILABLE for 2016-2017 Season! (2 month minimum - January + February 2017). LEASED Jan-March 2016. South Palm Desert home with SOUTH yard and pool! This great classic has been highly updated and retained the cool factor! Open great room features kitchen, living and dining...beautiful limestone floors and high ceilings with great light. 3 bedrooms with baths are very private. Granite counters in kitchen and baths. Stainless appliances in kitchen. Also there is a den for TV viewing/reading. The very private pool area gets great south sun, but also has a covered area for dining. Unlimited US/Canada phone/ high speed Internet and WIFI, Cable including HBO. NEW Misting System added on back patio!]]></Remarks>
+										<Remarks display_name="Remarks"><![CDATA[AVAILABLE for 2016-2017 Season! (2 month minimum - January + February 2017).  South Palm Desert home with SOUTH yard and pool! This great classic has been highly updated and retained the cool factor! Open great room features kitchen, living and dining...beautiful limestone floors and high ceilings with great light. 3 bedrooms with baths are very private. Granite counters in kitchen and baths. Stainless appliances in kitchen. Also there is a den for TV viewing/reading. The very private pool area gets great south sun, but also has a covered area for dining. Unlimited US/Canada phone/ high speed Internet and WIFI, Cable including HBO. NEW Misting System added on back patio!]]></Remarks>
 									
 										<Rooms display_name="Rooms"><![CDATA[Den,Great Room,Guest Room,Living Room]]></Rooms>
 									
@@ -5674,7 +5290,7 @@
 									
 										<DiningRoomYN display_name="Has Dining Room"/>
 									
-										<Directions display_name="Directions"><![CDATA[Go through front gate on Country Club Drive. After guard turn left on Red Arrow, turn left on Desert Holly rive and right on Red Arrow Trail.]]></Directions>
+										<Directions display_name="Directions"><![CDATA[Go through front gate on Country Club Drive. After guard turn left on Red Arrow, turn left on Desert Holly Drive and right on Red Arrow Trail.]]></Directions>
 									
 										<DocumentsAvailable display_name="Disclosures"/>
 									
@@ -5742,17 +5358,17 @@
 									
 										<LotSqFt display_name="Lot Size in Sq. Ft."><![CDATA[3049]]></LotSqFt>
 									
-										<Misc1 display_name="Disclosures"><![CDATA[216006380]]></Misc1>
+										<Misc1 display_name="Disclosures"><![CDATA[CC and Râ??s,Home Warranty Plan,Homeowners Assoc]]></Misc1>
 									
-										<Misc1 display_name="Lease Terms"><![CDATA[216006380]]></Misc1>
-									
-										<Misc1 display_name="MLNumber"><![CDATA[216006380]]></Misc1>
+										<Misc1 display_name="Lease Terms"><![CDATA[CC and Râ??s,Home Warranty Plan,Homeowners Assoc]]></Misc1>
 									
 										<Misc2 display_name="Land"/>
 									
 										<Misc2 display_name="Land Fee or Lease"/>
 									
 										<Misc2 display_name="Sale Type"/>
+									
+										<Misc2YN display_name="No Gated Community search"/>
 									
 										<Misc3 display_name="Land Lease Purchase"/>
 									
@@ -5804,7 +5420,7 @@
 									
 										<Region display_name="Partial APN search"><![CDATA[632501]]></Region>
 									
-										<Remarks display_name="Remarks"><![CDATA[Taking reservations for the 2017 season. Tenant can access owners club membership or upgrade to golf.  Available as a SOUTH FACING seasonal lease.  Remodeled from travertine flooring with crown molding, new kitchen with large granite center island, new stainless appliances, travertine bathrooms with new showers & counters, extended patio complete with electronic awnings. Property has a king in the master, queen and 2 twins. Conveniently located one building from a community pool and spa.  Call for availability and off season rates. Indian Ridge is an upscale address close to El Paseo shopping, restaurants and close to golf venues. Make this your desert getaway. Landlord wants a minimum of 4 - 5 months.]]></Remarks>
+										<Remarks display_name="Remarks"><![CDATA[Taking reservations for the 2017 season. Tenant can access owners club membership or upgrade to golf.  Available as a SOUTH FACING seasonal lease.  Remodeled from travertine flooring with crown molding, new kitchen with large granite center island, new stainless appliances, travertine bathrooms with new showers & counters, extended patio complete with electronic awnings. Property has a king in the master, queen and 2 twins. Conveniently located one building from a community pool and spa.  Call for availability and off season rates. Indian Ridge is an upscale address close to El Paseo shopping, restaurants and close to golf venues. Make this your desert getaway. Landlord wants a minimum of 4 - 5 months. Will consider a discount for a 6 month seasonal lease.]]></Remarks>
 									
 										<Rooms display_name="Rooms"><![CDATA[Atrium,Entry,Great Room,Living Room,Utility Room]]></Rooms>
 									
