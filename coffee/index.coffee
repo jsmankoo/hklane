@@ -1,4 +1,5 @@
 express = require 'express'
+path = require 'path'
 stylus = require 'stylus'
 nib = require 'nib'
 morgan = require 'morgan'
@@ -28,7 +29,7 @@ propArgs =
 app = express()
 
 app.set 'port', process.env.PORT||10000
-app.set 'views', "./views"
+app.set 'views', path.resolve __dirname, '..', 'views'
 app.set 'view engine', "jade"
 
 app.use morgan 'dev'
